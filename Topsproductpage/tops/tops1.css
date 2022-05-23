@@ -1,0 +1,211 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: arial;
+    color: #323232;
+  }
+
+#mainlayout{
+  width:75%;
+  margin:auto;
+}
+#mainlayoutbottomspace{
+    margin-top:15px;
+}
+
+/* categorylayout */
+#categorylayout{
+    width:100%;
+    display:flex;
+    /* gap:30px; */
+}
+
+/* category layout leftbox */
+#clleftbox{
+    width:22%;
+    display:flex;
+    flex-direction:column;
+}
+
+
+  .seecatgTitle {
+    padding: 8px 0;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  .seecatgTitle a {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  a {
+    color: #323232;
+    text-decoration: none;
+    transition: all .3s ease 0s;
+  }
+  .catgacrdbox span {
+    width: 100%;
+  }
+
+
+  .catgacrd {
+    cursor: pointer;
+    padding: 7px;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: .4s;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .seecatgActive {
+    color: #fc6486;
+  }
+  .catgacrd.seecatgActive::after {
+    content: "";
+    background: url(https://static.faballey.com/images/spriten.png) no-repeat -94px -253px;
+  }
+
+  .catgacrd::after {
+    content: "";
+    float : right;
+    margin-left: 5px;
+    background: url(https://static.faballey.com/images/spriten.png) no-repeat -94px -234px;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+  }
+  .catgacrd {
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+
+  .seecatg {
+    padding: 0 18px;
+    display: none;
+  }
+  ul {
+    margin: 0;
+  }
+  .seecatg li {
+    list-style: none;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .seecatgTitle a {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  a {
+    color: #323232;
+    text-decoration: none;
+    transition: all .3s ease 0s;
+  }
+
+
+
+
+
+
+
+  #clrightbox{
+      width:78%;
+      margin-left:30px;
+      display:flex;
+      flex-direction:column;
+      
+  }
+  #clrightboxhead ul{
+      display:flex;
+      list-style: none;
+      margin-bottom:35px;
+  }
+  #clrightboxhead ul li{
+      margin-left:3px;
+      margin-right:3px;
+      font-size: 13px;
+      font-weight: 500;
+  }
+  #fl1 ul{
+      display:flex;
+      list-style:none;
+
+  }
+  #fl1 ul li{
+      list-style: none;
+      margin: 10px 1% 0 0;
+      float: left;
+      border: 1px solid #e1e1e1;
+      padding: 8px 10px;
+      color: #919191;
+      font-weight: 500;
+      width: 19%;
+      box-sizing: border-box;
+      cursor: pointer;
+      position: relative;
+      vertical-align: top;
+      font-size: 12px;
+  }
+  #fl2 ul li{
+    list-style: none;
+    margin: 10px 1% 0 0;
+    float: left;
+    border: 1px solid #e1e1e1;
+    padding: 8px 10px;
+    color: #919191;
+    font-weight: 500;
+    width: 19%;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+#belowfilterbox{
+    margin-top:30px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    padding:5px
+
+}
+#belowfilterbox>div{
+    display:flex;
+    justify-content: space-between;
+}
+#belowfilterbox>div>div:nth-child(1){
+    display:flex;
+    
+}
+#belowfilterbox>div>div:nth-child(1) p{
+    margin-left:4px;
+    margin-right:4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top:3px;
+}
+#belowfilterbox>div>div:nth-child(2) select{
+    border:0px;
+    background-color:white;
+}
+
+#productsdisplay{
+    width:100%;
+    padding:10px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+
+  

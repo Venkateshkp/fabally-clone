@@ -1,0 +1,132 @@
+{
+    "topsdata":[
+        {
+            "id":"1",
+            "product_name":"White Puff Sleeve Zipped Crop Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04860Z/1.jpg","https://img.faballey.com/images/Product/TOP04860Z/2.jpg"],
+            "price":800,
+            "striked_price":1600
+        },
+        {
+            "id":"2",
+            "product_name":"Mint Green Flared Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05248Z/1.jpg","https://img.faballey.com/images/Product/TOP05248Z/2.jpg"],
+            "price":700,
+            "striked_price":1400
+        },{
+            "id":"3",
+            "product_name":"Pink Buttoned Pleated Dobby Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05298Z/1.jpg","https://img.faballey.com/images/Product/TOP05298Z/2.jpg"],
+            "price":800,
+            "striked_price":1600
+        },{
+            "id":"4",
+            "product_name":"Green Front Knot Knit Crop Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP06014Z/1.jpg","https://img.faballey.com/images/Product/TOP06014Z/2.jpg"],
+            "price":910,
+            "striked_price":1300
+        },{
+            "id":"5",
+            "product_name":"Yellow Floral Strappy Cold Shoulder Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP04732Z/1.jpg","https://img.faballey.com/images/Product/TOP04732Z/2.jpg"],
+            "price":650,
+            "striked_price":1300
+        },{
+            "id":"6",
+            "product_name":"Hot Pink Schiffli Puff Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04986Z/1.jpg","https://img.faballey.com/images/Product/TOP04986Z/2.jpg"],
+            "price":825,
+            "striked_price":1650
+        },{
+            "id":"7",
+            "product_name":"Pink Floral Smocked Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04999Z/1.jpg","https://img.faballey.com/images/Product/TOP04999Z/2.jpg"],
+            "price":825,
+            "striked_price":1650
+        },{
+            "id":"8",
+            "product_name":"Green Geo Square Neck Bishop Sleeve Blouse ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05418Z/1.jpg","https://img.faballey.com/images/Product/TOP05418Z/2.jpg"],
+            "price":700,
+            "striked_price":1400
+        },{
+            "id":"9",
+            "product_name":"Black Collared Neck Smoked Sleeve Blouse ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05600Z/1.jpg","https://img.faballey.com/images/Product/TOP05600Z/2.jpg"],
+            "price":725,
+            "striked_price":1450
+        },{
+            "id":"10",
+            "product_name":"Yellow Floral Belted Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04309Z/1.jpg","https://img.faballey.com/images/Product/TOP04309Z/2.jpg"],
+            "price":700,
+            "striked_price":1400
+        },{
+            "id":"11",
+            "product_name":"Pink Floral Ruffled Halter Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP04866Z/1.jpg","https://img.faballey.com/images/Product/TOP04866Z/2.jpg"],
+            "price":700,
+            "striked_price":1400
+        },{
+            "id":"12",
+            "product_name":"Navy High Neck Pleated Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP04268Z/1.jpg","https://img.faballey.com/images/Product/TOP04268Z/2.jpg"],
+            "price":420,
+            "striked_price":1400
+        },{
+            "id":"13",
+            "product_name":"Dusty Pink Ditsy Floral Wrap Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP04916Z/1.jpg","https://img.faballey.com/images/Product/TOP04916Z/2.jpg"],
+            "price":750,
+            "striked_price":1500
+        },{
+            "id":"14",
+            "product_name":"Military Mad Henley T-Shirt",
+            "image_url":["https://img.faballey.com/images/Product/TOP01574A/1.jpg","https://img.faballey.com/images/Product/TOP01574A/2.jpg"],
+            "price":425,
+            "striked_price":850
+        },{
+            "id":"15",
+            "product_name":"Lilac Square Neck Puff Sleeve Knit Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP06016Z/1.jpg","https://img.faballey.com/images/Product/TOP06016Z/2.jpg"],
+            "price":980,
+            "striked_price":1400
+        },{
+            "id":"16",
+            "product_name":"Lilac Square Neck Puff Sleeve Knit Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP06016Z/1.jpg","https://img.faballey.com/images/Product/TOP06016Z/1.jpg"],
+            "price":980,
+            "striked_price":1400
+        },{
+            "id":"17",
+            "product_name":"Slate Blue Tie Up Blouse ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05375Z/1.jpg","https://img.faballey.com/images/Product/TOP05375Z/2.jpg"],
+            "price":700,
+            "striked_price":1400
+        },{
+            "id":"18",
+            "product_name":"White Poplin Puff Sleeve Back Tie Up Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05175Z/1.jpg","https://img.faballey.com/images/Product/TOP05175Z/2.jpg"],
+            "price":600,
+            "striked_price":1200
+        },{
+            "id":"19",
+            "product_name":"BASICS White Striped Strappy Tank Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP06013Z/1.jpg","https://img.faballey.com/images/Product/TOP06013Z/2.jpg"],
+            "price":840,
+            "striked_price":1200
+        },{
+            "id":"20",
+            "product_name":"Dusty Pink Gathered Peplum Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05204Z/1.jpg","https://img.faballey.com/images/Product/TOP05204Z/2.jpg"],
+            "price":700,
+            "striked_price":1400
+        },{
+            "id":"21",
+            "product_name":"Black Botanical Halter Top  ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05080Z/1.jpg","https://img.faballey.com/images/Product/TOP05080Z/2.jpg"],
+            "price":700,
+            "striked_price":1400
+        }
+    ]
+}
