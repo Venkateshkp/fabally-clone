@@ -1,0 +1,120 @@
+{
+    "arrays": [
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS03847Z/d3.jpg",
+            "title":"Blue Grey Floral Belted Midi Dress",
+            "price":"1200",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS03847Z/d4.jpg",
+            "id":"1",
+            "actualprice" : "1600"
+
+        },
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04860Z/d3.jpg",
+            "title":"White Puff Sleeve Zipped Crop Top",
+            "price":"800",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04860Z/d4.jpg",
+            "id":"2",
+            "actualprice" : "1600"
+
+        },
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS04067Z/d3.jpg",
+            "title":"White Puff Sleeve Zipped Crop Top",
+            "price":"1300",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04067Z/d4.jpg",
+            "id":"3",
+            "actualprice" : "2600"
+
+        },
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP05248Z/d3.jpg",
+            "title":"Mint Green Flared Sleeve Top",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04067Z/d4.jpg",
+            "id":"4",
+            "actualprice" : "1600"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/FCO00101Z/d3.jpg",
+            "title":"Green Jersey Knotted Crop Top Pyjama Set",
+            "price":"900",
+            "hoverimg" : "https://img.faballey.com/images/Product/FCO00101Z/d4.jpg",
+            "id":"5",
+            "actualprice" : "1900"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS04078Z/d3.jpg",
+            "title":"White Blue Polka Twisted Sleeveless Jumpsuit",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04078Z/d4.jpg",
+            "id":"6",
+            "actualprice" : "2200"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/FCO00130Z/d3.jpg",
+            "title":"White Striped Cropped Shirt and Long Skirt Set",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/FCO00130Z/d4.jpg",
+            "id":"7",
+            "actualprice" : "2200"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04999Z/d3.jpg",
+            "title":"Black Gold Shimmer Ruffled Dress",
+            "price":"1300",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04999Z/d4.jpg",
+            "id":"8",
+            "actualprice" : "2600"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04732Z/d3.jpg",
+            "title":"Yellow Floral Strappy Cold Shoulder Top",
+            "price":"650",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04732Z/d4.jpg",
+            "id":"9",
+            "actualprice" : "1300"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/FCO00116Z/d3.jpg",
+            "title":"Black Pink Floral Tie Up Strappy Pyjama Set",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/FCO00116Z/d4.jpg",
+            "id":"10",
+            "actualprice" : "1500"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/SKT00719Z/d3.jpg",
+            "title":"Wine Ring Wrap Mini Skirt",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/SKT00719Z/d4.jpg",
+            "id":"11",
+            "actualprice" : "1500"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/SWT00097Z/d3.jpg",
+            "title":"Wine Metallic Buttoned Sweater",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/SWT00097Z/d4.jpg",
+            "id":"12",
+            "actualprice" : "1500"
+
+        }
+    ]
+}
