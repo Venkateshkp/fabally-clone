@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curves</title>
+    <style>
+        #navBar
+        {
+            border:1px solid black;
+            height: 150px;
+        }
+        #container
+        {
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            gap: 10px;
+        }
+        #leftContainer
+        {
+            width: 25%;
+            border: 1px solid black;
+            height: 500px; 
+            padding: 15px;
+        }
+        #rightContainer
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            height: 600px;
+            width: 100%;
+            border: 1px solid black;
+        }
+        #filterOptions
+        {
+            height: 150px;
+            width: 98%;
+            border: 1px solid black;
+            display: grid;
+            padding: 2px;
+            grid-template-columns: repeat(5,1fr);
+        }
+        #filterOptions >div
+        {   width: 90%; 
+            height: 35px;
+            padding: 2px;
+            border: 1px solid black;
+        }
+        #sortContainer
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        #productContainer
+        {
+            border: 1px solid black;
+            padding: 5px; 
+            display: grid;
+            grid-template-columns: repeat(3,1fr); 
+            gap: 10px; 
+            text-align: center;
+        }
+        #productContainer >div
+        {
+            margin: auto;
+            cursor: pointer;
+        }
+        #productContainer >div >img
+        {
+            width:80%
+        }
+
+    </style>
+</head>
+<body>
+    <div id="navBar"></div>
+    <div id="container">
+        <div id="leftContainer">
+            <h3>Curve</h3>
+            <hr>
+            <h4>Curve Tops</h4>
+            <hr>
+            <h4>Curve Dresses</h4>
+            <hr>
+            <h4>Curve Bottoms</h4>
+            <hr>
+
+        </div>
+        <div id="rightContainer">
+            <div id="filterContainer">
+                <div id="filterOptions">
+                    <div id="sizeFilter">
+                        <h4>Size</h4>
+                    </div>
+                    <div id="colourFilter">
+                        <h4>Colour</h4>
+                    </div>
+                    <div id="occasionFilter">
+                        <h4>Occasion</h4>
+                    </div>
+                    <div id="FabricFilter">
+                        <h4>Fabric</h4>
+                    </div>
+                    <div id="patternFilter">
+                        <h4>Pattern</h4>
+                    </div>
+                    <div id="trendFilter">
+                        <h4>Trend</h4>
+                    </div>
+                    <div id="discountFilter">
+                        <h4>Discount</h4>
+                    </div>
+                    <div id="priceFilter">
+                        <h4>Price</h4>
+                    </div>
+                </div>
+                <hr>
+                <div id="sortContainer">
+                    <div id="someDetailsContainer">
+                        <span>CURVE |</span>
+                        <span>91 STYLES FOUND</span>
+                        <span> | VIEW ALL</span>
+                    </div>
+                    <div id="sortBar">
+                        <label for="sortOptions"> SORT BY</label>
+                        <select name="sortOptions" id="sortOptions">
+                            <option value="relevance">Relevance</option>
+                            <option value="latest">Latest Arrivals</option>
+                            <option value="hightolow">Price : High to Low</option>
+                            <option value="lowtohigh">Price: Low to High</option>
+                            <option value="bestseller">Bestseller</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            
+            <div id="productContainer">
+
+            </div>
+    </div>
+</div>
+    <div id="footer"></div>
+</body>
+</html>
+<script>
+    let url="http://localhost:3000/curvesData";
+    getData(url);
+    async function getData(url)
+    {
+        try 
+        {
+          let res=await fetch(url);
+          let data=await res.json();
+          console.log(data);
+          let container=document.getElementById("productContainer");
+          displayData(data,container);  
+        } 
+        catch (error) 
+        {
+          console.log(error);
+        }
+    }
+    function displayData(data,container)
+    {
+        container.innerHTML="";
+        data.forEach(element => {
+            let productCard=document.createElement('div');
+            let productImg=document.createElement('img');
+            productImg.src=element.image_url[0];
+            productImg.addEventListener('mouseenter',function()
+            {
+                productImg.src=element.image_url[1];
+            })
+            productImg.addEventListener('mouseleave',function()
+            {
+                productImg.src=element.image_url[0];
+            })
+            let productName=document.createElement('h4');
+            productName.textContent=element.product_name;
+            let productPrice=document.createElement('p');
+            productPrice.textContent="Rs: " +element.price;
+            productCard.append(productImg,productName,productPrice);
+            container.append(productCard);
+            
+        });
+    }
+    
+</script>
