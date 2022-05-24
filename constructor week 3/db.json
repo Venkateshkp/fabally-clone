@@ -1,0 +1,299 @@
+{
+    "arrays": [
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS03847Z/d3.jpg",
+            "title":"Blue Grey Floral Belted Midi Dress",
+            "price":"1200",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS03847Z/d4.jpg",
+            "id":"1",
+            "actualprice" : "1600"
+
+        },
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04860Z/d3.jpg",
+            "title":"White Puff Sleeve Zipped Crop Top",
+            "price":"800",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04860Z/d4.jpg",
+            "id":"2",
+            "actualprice" : "1600"
+
+        },
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS04067Z/d3.jpg",
+            "title":"White Puff Sleeve Zipped Crop Top",
+            "price":"1300",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04067Z/d4.jpg",
+            "id":"3",
+            "actualprice" : "2600"
+
+        },
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP05248Z/d3.jpg",
+            "title":"Mint Green Flared Sleeve Top",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04067Z/d4.jpg",
+            "id":"4",
+            "actualprice" : "1600"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/FCO00101Z/d3.jpg",
+            "title":"Green Jersey Knotted Crop Top Pyjama Set",
+            "price":"900",
+            "hoverimg" : "https://img.faballey.com/images/Product/FCO00101Z/d4.jpg",
+            "id":"5",
+            "actualprice" : "1900"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS04078Z/d3.jpg",
+            "title":"White Blue Polka Twisted Sleeveless Jumpsuit",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04078Z/d4.jpg",
+            "id":"6",
+            "actualprice" : "2200"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/FCO00130Z/d3.jpg",
+            "title":"White Striped Cropped Shirt and Long Skirt Set",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/FCO00130Z/d4.jpg",
+            "id":"7",
+            "actualprice" : "2200"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04999Z/d3.jpg",
+            "title":"Black Gold Shimmer Ruffled Dress",
+            "price":"1300",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04999Z/d4.jpg",
+            "id":"8",
+            "actualprice" : "2600"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04732Z/d3.jpg",
+            "title":"Yellow Floral Strappy Cold Shoulder Top",
+            "price":"650",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04732Z/d4.jpg",
+            "id":"9",
+            "actualprice" : "1300"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/FCO00116Z/d3.jpg",
+            "title":"Black Pink Floral Tie Up Strappy Pyjama Set",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/FCO00116Z/d4.jpg",
+            "id":"10",
+            "actualprice" : "1500"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/SKT00719Z/d3.jpg",
+            "title":"Wine Ring Wrap Mini Skirt",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/SKT00719Z/d4.jpg",
+            "id":"11",
+            "actualprice" : "1500"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/SWT00097Z/d3.jpg",
+            "title":"Wine Metallic Buttoned Sweater",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/SWT00097Z/d4.jpg",
+            "id":"12",
+            "actualprice" : "1500"
+
+        },
+        {
+            "image" : "https://img.faballey.com/images/Product/JAC00571Z/d3.jpg",
+            "title":"Black Lapel Collar Hooded Long Coat",
+            "price":"1900",
+            "hoverimg" : "https://img.faballey.com/images/Product/SWT00097Z/d4.jpg",
+            "id":"13",
+            "actualprice" : "4500"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS04569Z/d3.jpg",
+            "title":"Rusty Rose Embellished Sleeveless Maxi Dress",
+            "price":"1300",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04569Z/d4.jpg",
+            "id":"14",
+            "actualprice" : "1400"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP05418Z/d3.jpg",
+            "title":"Green Geo Square Neck Bishop Sleeve Blouse",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP05418Z/d4.jpg",
+            "id":"15",
+            "actualprice" : "1400"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS03062Z/d3.jpg",
+            "title":"Dark Green Striped Belted Jumpsuit",
+            "price":"2200",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS03062Z/d4.jpg",
+            "id":"16",
+            "actualprice" : "600"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS03829Z/d3.jpg",
+            "title":"Black Slit Sleeve Embellished Jumpsuit",
+            "price":"1300",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS03829Z/d4.jpg",
+            "id":"17",
+            "actualprice" : "2600"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS04351Z/d3.jpg",
+            "title":"Black Ruched Halter Maxi Dress",
+            "price":"1400",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS04351Z/d4.jpg",
+            "id":"18",
+            "actualprice" : "2800"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/FCO00093Z/d3.jpg",
+            "title":"Navy Pyjama Shirt Set",
+            "price":"960",
+            "hoverimg" : "https://img.faballey.com/images/Product/FCO00093Z/d4.jpg",
+            "id":"19",
+            "actualprice" : "1800"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/SKT00718Z/d3.jpg",
+            "title":"Black Ring Wrap Mini Skirt",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/SKT00718Z/d4.jpg",
+            "id":"20",
+            "actualprice" : "1400"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP05600Z/d3.jpg",
+            "title":"Black Collared Neck Smoked Sleeve Blouse",
+            "price":"720",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP05600Z/d4.jpg",
+            "id":"21",
+            "actualprice" : "1440"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS03132Z/d3.jpg",
+            "title":"Teal Cut Out Back Maxi Dresse",
+            "price":"1100",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS03132Z/d4.jpg",
+            "id":"22",
+            "actualprice" : "2200"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04309Z/d3.jpg",
+            "title":"Yellow Floral Belted Top",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04309Z/d4.jpg",
+            "id":"23",
+            "actualprice" : "1400"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/CTP00562D/d3.jpg",
+            "title":"CURVE Dusty Pink Back Tie Bell Sleeve Blouse",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/CTP00562D/d4.jpg",
+            "id":"24",
+            "actualprice" : "1400"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04866Z/d3.jpg",
+            "title":"Pink Floral Ruffled Halter Top",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04866Z/d4.jpg",
+            "id":"25",
+            "actualprice" : "1400"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04268Z/d3.jpg",
+            "title":"Navy High Neck Pleated Top",
+            "price":"420",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04268Z/d4.jpg",
+            "id":"26",
+            "actualprice" : "1400"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/DRS03900Z/d3.jpg",
+            "title":"Beige Ditsy Floral Smocked Belted Dress",
+            "price":"1050",
+            "hoverimg" : "https://img.faballey.com/images/Product/DRS03900Z/d4.jpg",
+            "id":"27",
+            "actualprice" : "2100"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP04985Z/d3.jpg",
+            "title":"Mustard Schiffli Puff Sleeve Top",
+            "price":"850",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP04985Z/d4.jpg",
+            "id":"28",
+            "actualprice" : "1650"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP05204Z/d3.jpg",
+            "title":"Dusty Pink Gathered Peplum Top",
+            "price":"700",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP05204Z/d4.jpg",
+            "id":"29",
+            "actualprice" : "1450"
+
+        }
+        ,
+        {
+            "image" : "https://img.faballey.com/images/Product/TOP05175Z/d3.jpg",
+            "title":"White Poplin Puff Sleeve Back Tie Up Top",
+            "price":"600",
+            "hoverimg" : "https://img.faballey.com/images/Product/TOP05175Z/d4.jpg",
+            "id":"30",
+            "actualprice" : "1200"
+
+        }
+    ]
+}
