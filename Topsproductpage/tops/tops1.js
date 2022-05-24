@@ -327,3 +327,93 @@ document.querySelector("#pricecaret").addEventListener("click",()=>{
    }
 })
 
+//2xl size products
+document.querySelector("#size2xl").addEventListener("change",async ()=>{
+    console.log("hi");
+    if(document.querySelector("#size2xl").checked){
+        let response=await fetch("http://localhost:3000/2xl");
+        let res=await response.json();
+        console.log(res);
+        displaydata(res);
+    }
+})
+//3xl size products
+document.querySelector("#size3xl").addEventListener("change",async ()=>{
+    console.log("hi");
+    if(document.querySelector("#size3xl").checked){
+        let response=await fetch("http://localhost:3000/3xl");
+        let res=await response.json();
+        console.log(res);
+        displaydata(res);
+    }
+});   
+//4xl size products
+document.querySelector("#size4xl").addEventListener("change",async ()=>{
+    console.log("hi");
+    if(document.querySelector("#size4xl").checked){
+        let response=await fetch("http://localhost:3000/4xl");
+        let res=await response.json();
+        console.log(res);
+        displaydata(res);
+    }
+        
+})
+//blue color products
+document.querySelector("#colorblue").addEventListener("change",async ()=>{
+    console.log("hi");
+    if(document.querySelector("#colorblue").checked){
+        let response=await fetch("http://localhost:3000/blue");
+        let res=await response.json();
+        console.log(res);
+        displaydata(res);
+    }
+})
+
+//orange color products
+document.querySelector("#colororange").addEventListener("change",async ()=>{
+    console.log("hi");
+        
+        if(document.querySelector("#colororange").checked){
+            let response=await fetch("http://localhost:3000/orange");
+            let res=await response.json();
+            console.log(res);
+            displaydata(res);
+        }
+})
+
+
+//sorting of products
+document.querySelector("#sort-by").addEventListener("change",async ()=>{
+    let result=document.querySelector("#sort-by").value;
+    if(result==="Relevance"){
+        try {
+            let response=await fetch("http://localhost:3000/topsdata");
+            let res=await response.json();
+            console.log(res);
+            displaydata(res);
+        } catch (error) {
+            console.log(error);
+        }
+    }else if(result="Price:High to Low"){
+        try {
+            let response=await fetch("http://localhost:3000/topsdata?_sort=price&_order=");
+            let res=await response.json();
+            console.log(res);
+            displaydata(res);
+        } catch (error) {
+            console.log(error);
+        }
+    }else if(result="Price:Low to High"){
+        try {
+            let response=await fetch("http://localhost:3000/topsdata?_sort=price&_order=asc");
+            let res=await response.json();
+            console.log(res);
+            displaydata(res);
+        } catch (error) {
+            console.log(error);
+        }
+    }
+})
+
+///posts?_sort=views&_order=asc
+

@@ -1,132 +1,463 @@
 {
     "topsdata":[
         {
-            "id":"1",
-            "product_name":"White Puff Sleeve Zipped Crop Top",
-            "image_url":["https://img.faballey.com/images/Product/TOP04860Z/1.jpg","https://img.faballey.com/images/Product/TOP04860Z/2.jpg"],
-            "price":800,
-            "striked_price":1600
+            "id":"TOP04268Z",
+            "product_name":"Navy High Neck Pleated Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04268Z/1.jpg","https://img.faballey.com/images/Product/TOP04268Z/2.jpg","https://img.faballey.com/images/Product/TOP04268Z/d5.jpg","https://img.faballey.com/images/Product/TOP04268Z/d6.jpg","https://img.faballey.com/images/Product/TOP04268Z/d7.jpg","https://img.faballey.com/images/Product/TOP04268Z/d8.jpg"],
+            "price":420,
+            "striked_price":1400,
+            "offer":"70%"
         },
         {
-            "id":"2",
-            "product_name":"Mint Green Flared Sleeve Top",
-            "image_url":["https://img.faballey.com/images/Product/TOP05248Z/1.jpg","https://img.faballey.com/images/Product/TOP05248Z/2.jpg"],
+            "id":"TOP05375Z",
+            "product_name":"Slate Blue Tie Up Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP05375Z/1.jpg","https://img.faballey.com/images/Product/TOP05375Z/2.jpg","https://img.faballey.com/images/Product/TOP05375Z/d5.jpg","https://img.faballey.com/images/Product/TOP05375Z/d7.jpg","https://img.faballey.com/images/Product/TOP05375Z/d8.jpg","https://img.faballey.com/images/Product/TOP05375Z/d9.jpg"],
             "price":700,
-            "striked_price":1400
+            "striked_price":1400,
+            "offer":"70%"
         },{
-            "id":"3",
-            "product_name":"Pink Buttoned Pleated Dobby Peplum Top",
-            "image_url":["https://img.faballey.com/images/Product/TOP05298Z/1.jpg","https://img.faballey.com/images/Product/TOP05298Z/2.jpg"],
-            "price":800,
-            "striked_price":1600
-        },{
-            "id":"4",
-            "product_name":"Green Front Knot Knit Crop Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP06014Z/1.jpg","https://img.faballey.com/images/Product/TOP06014Z/2.jpg"],
-            "price":910,
-            "striked_price":1300
-        },{
-            "id":"5",
-            "product_name":"Yellow Floral Strappy Cold Shoulder Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP04732Z/1.jpg","https://img.faballey.com/images/Product/TOP04732Z/2.jpg"],
-            "price":650,
-            "striked_price":1300
-        },{
-            "id":"6",
-            "product_name":"Hot Pink Schiffli Puff Sleeve Top",
-            "image_url":["https://img.faballey.com/images/Product/TOP04986Z/1.jpg","https://img.faballey.com/images/Product/TOP04986Z/2.jpg"],
-            "price":825,
-            "striked_price":1650
-        },{
-            "id":"7",
-            "product_name":"Pink Floral Smocked Peplum Top",
-            "image_url":["https://img.faballey.com/images/Product/TOP04999Z/1.jpg","https://img.faballey.com/images/Product/TOP04999Z/2.jpg"],
-            "price":825,
-            "striked_price":1650
-        },{
-            "id":"8",
-            "product_name":"Green Geo Square Neck Bishop Sleeve Blouse ",
-            "image_url":["https://img.faballey.com/images/Product/TOP05418Z/1.jpg","https://img.faballey.com/images/Product/TOP05418Z/2.jpg"],
+            "id":"TOP05083Z",
+            "product_name":"Navy Striped Puff Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05083Z/1.jpg","https://img.faballey.com/images/Product/TOP05083Z/2.jpg","https://img.faballey.com/images/Product/TOP05083Z/d5.jpg","https://img.faballey.com/images/Product/TOP05083Z/d7.jpg","https://img.faballey.com/images/Product/TOP05083Z/d8.jpg"],
             "price":700,
-            "striked_price":1400
+            "striked_price":1400,
+            "offer":"50%"
         },{
-            "id":"9",
-            "product_name":"Black Collared Neck Smoked Sleeve Blouse ",
-            "image_url":["https://img.faballey.com/images/Product/TOP05600Z/1.jpg","https://img.faballey.com/images/Product/TOP05600Z/2.jpg"],
-            "price":725,
-            "striked_price":1450
-        },{
-            "id":"10",
-            "product_name":"Yellow Floral Belted Top",
-            "image_url":["https://img.faballey.com/images/Product/TOP04309Z/1.jpg","https://img.faballey.com/images/Product/TOP04309Z/2.jpg"],
-            "price":700,
-            "striked_price":1400
-        },{
-            "id":"11",
-            "product_name":"Pink Floral Ruffled Halter Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP04866Z/1.jpg","https://img.faballey.com/images/Product/TOP04866Z/2.jpg"],
-            "price":700,
-            "striked_price":1400
-        },{
-            "id":"12",
-            "product_name":"Navy High Neck Pleated Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP04268Z/1.jpg","https://img.faballey.com/images/Product/TOP04268Z/2.jpg"],
-            "price":420,
-            "striked_price":1400
-        },{
-            "id":"13",
-            "product_name":"Dusty Pink Ditsy Floral Wrap Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP04916Z/1.jpg","https://img.faballey.com/images/Product/TOP04916Z/2.jpg"],
+            "id":" TOP04703Z",
+            "product_name":"Powder Blue Lace High Neck Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04703Z/1.jpg","https://img.faballey.com/images/Product/TOP04703Z/2.jpg","https://img.faballey.com/images/Product/TOP04703Z/d5.jpg","https://img.faballey.com/images/Product/TOP04703Z/d7.jpg","https://img.faballey.com/images/Product/TOP04703Z/d8.jpg"],
             "price":750,
-            "striked_price":1500
+            "striked_price":1500,
+            "offer":"50%"
         },{
-            "id":"14",
-            "product_name":"Military Mad Henley T-Shirt",
-            "image_url":["https://img.faballey.com/images/Product/TOP01574A/1.jpg","https://img.faballey.com/images/Product/TOP01574A/2.jpg"],
-            "price":425,
-            "striked_price":850
+            "id":" TOP04703Z",
+            "product_name":"Pink Buttoned Pleated Dobby Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05298Z/d3.jpg","https://img.faballey.com/images/Product/TOP05298Z/d4.jpg","https://img.faballey.com/images/Product/TOP05298Z/d5.jpg","https://img.faballey.com/images/Product/TOP05298Z/d7.jpg","https://img.faballey.com/images/Product/TOP05298Z/d8.jpg"],
+            "price":800,
+            "striked_price":1600,
+            "offer":"50%"
         },{
-            "id":"15",
-            "product_name":"Lilac Square Neck Puff Sleeve Knit Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP06016Z/1.jpg","https://img.faballey.com/images/Product/TOP06016Z/2.jpg"],
-            "price":980,
-            "striked_price":1400
+            "id":"TOP04999Z",
+            "product_name":"Pink Floral Smocked Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04999Z/d3.jpg","https://img.faballey.com/images/Product/TOP04999Z/d4.jpg","https://img.faballey.com/images/Product/TOP04999Z/d5.jpg","https://img.faballey.com/Images/Product/TOP04999Z/d3.jpg","https://img.faballey.com/images/Product/TOP04999Z/d7.jpg","https://img.faballey.com/images/Product/TOP04999Z/d8.jpg"],
+            "price":825,
+            "striked_price":1650,
+            "offer":"50%"
         },{
-            "id":"16",
-            "product_name":"Lilac Square Neck Puff Sleeve Knit Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP06016Z/1.jpg","https://img.faballey.com/images/Product/TOP06016Z/1.jpg"],
-            "price":980,
-            "striked_price":1400
-        },{
-            "id":"17",
-            "product_name":"Slate Blue Tie Up Blouse ",
-            "image_url":["https://img.faballey.com/images/Product/TOP05375Z/1.jpg","https://img.faballey.com/images/Product/TOP05375Z/2.jpg"],
+            "id":"TOP04947Z",
+            "product_name":"Red Striped Cuffed Detail Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP04947Z/d3.jpg","https://img.faballey.com/images/Product/TOP04947Z/d4.jpg","https://img.faballey.com/images/Product/TOP04947Z/d5.jpg","https://img.faballey.com/images/Product/TOP04947Z/d7.jpg","https://img.faballey.com/images/Product/TOP04947Z/d8.jpg"],
             "price":700,
-            "striked_price":1400
+            "striked_price":1400,
+            "offer":"50%"
         },{
-            "id":"18",
-            "product_name":"White Poplin Puff Sleeve Back Tie Up Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP05175Z/1.jpg","https://img.faballey.com/images/Product/TOP05175Z/2.jpg"],
+            "id":"TOP04526Z",
+            "product_name":"Red Gingham Schiffli Hem Strappy Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04526Z/d3.jpg","https://img.faballey.com/images/Product/TOP04526Z/d4.jpg","https://img.faballey.com/images/Product/TOP04526Z/d5.jpg","https://img.faballey.com/images/Product/TOP04526Z/d6.jpg","https://img.faballey.com/images/Product/TOP04526Z/d7.jpg","https://img.faballey.com/images/Product/TOP04526Z/d8.jpg"],
             "price":600,
-            "striked_price":1200
+            "striked_price":1200,
+            "offer":"50%"
         },{
-            "id":"19",
-            "product_name":"BASICS White Striped Strappy Tank Top",
-            "image_url":["https://img.faballey.com/images/Product/TOP06013Z/1.jpg","https://img.faballey.com/images/Product/TOP06013Z/2.jpg"],
-            "price":840,
-            "striked_price":1200
+            "id":"TOP04456Z",
+            "product_name":"Red Twisted Hem Shimmer Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP04456Z/d3.jpg","https://img.faballey.com/images/Product/TOP04456Z/d4.jpg","https://img.faballey.com/images/Product/TOP04456Z/d5.jpg","https://img.faballey.com/images/Product/TOP04456Z/d6.jpg","https://img.faballey.com/images/Product/TOP04456Z/d7.jpg","https://img.faballey.com/images/Product/TOP04456Z/d8.jpg"],
+            "price":800,
+            "striked_price":1600,
+            "offer":"50%"
         },{
-            "id":"20",
-            "product_name":"Dusty Pink Gathered Peplum Top ",
-            "image_url":["https://img.faballey.com/images/Product/TOP05204Z/1.jpg","https://img.faballey.com/images/Product/TOP05204Z/2.jpg"],
+            "id":" TOP04985Z",
+            "product_name":"Mustard Schiffli Puff Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04985Z/d3.jpg","https://img.faballey.com/images/Product/TOP04985Z/d4.jpg","https://img.faballey.com/images/Product/TOP04985Z/d5.jpg","https://img.faballey.com/images/Product/TOP04985Z/d7.jpg","https://img.faballey.com/images/Product/TOP04985Z/d8.jpg"],
+            "price":825,
+            "striked_price":1650,
+            "offer":"50%"
+        },{
+            "id":"TOP04309Z",
+            "product_name":"Yellow Floral Belted Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04309Z/d3.jpg","https://img.faballey.com/images/Product/TOP04309Z/d4.jpg","https://img.faballey.com/images/Product/TOP04309Z/d5.jpg","https://img.faballey.com/images/Product/TOP04309Z/d6.jpg","https://img.faballey.com/images/Product/TOP04309Z/d7.jpg","https://img.faballey.com/images/Product/TOP04309Z/d9.jpg"],
             "price":700,
-            "striked_price":1400
+            "striked_price":1400,
+            "offer":"50%"
         },{
-            "id":"21",
-            "product_name":"Black Botanical Halter Top  ",
-            "image_url":["https://img.faballey.com/images/Product/TOP05080Z/1.jpg","https://img.faballey.com/images/Product/TOP05080Z/2.jpg"],
+            "id":"TOP04259Z",
+            "product_name":"Yellow Gingham Belted Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04259Z/d3.jpg","https://img.faballey.com/images/Product/TOP04259Z/d4.jpg","https://img.faballey.com/images/Product/TOP04259Z/d5.jpg","https://img.faballey.com/images/Product/TOP04259Z/d6.jpg","https://img.faballey.com/images/Product/TOP04259Z/d7.jpg","https://img.faballey.com/images/Product/TOP04259Z/d8.jpg"],
+            "price":450,
+            "striked_price":1500,
+            "offer":"70%"
+        },{
+            "id":"TOP05690Z",
+            "product_name":"Buttercup Poplin Embroidered Crop Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05690Z/d3.jpg","https://img.faballey.com/images/Product/TOP05690Z/d4.jpg","https://img.faballey.com/images/Product/TOP05690Z/d5.jpg","https://img.faballey.com/images/Product/TOP05690Z/d7.jpg","https://img.faballey.com/images/Product/TOP05690Z/d8.jpg"],
+            "price":1050,
+            "striked_price":1500,
+            "offer":"30%"
+        },{
+            "id":"TOP05672Z",
+            "product_name":"Yellow Floral Poplin Puff Sleeve Button Down Shirt",
+            "image_url":["https://img.faballey.com/images/Product/TOP05672Z/d3.jpg","https://img.faballey.com/images/Product/TOP05672Z/d4.jpg","https://img.faballey.com/images/Product/TOP05672Z/d5.jpg","https://img.faballey.com/images/Product/TOP05672Z/d7.jpg","https://img.faballey.com/images/Product/TOP05672Z/d8.jpg"],
+            "price":1500,
+            "striked_price":1600,
+            "offer":"10%"
+        },{
+            "id":"TOP05248Z",
+            "product_name":"Mint Green Flared Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05248Z/d3.jpg","https://img.faballey.com/images/Product/TOP05248Z/d4.jpg","https://img.faballey.com/images/Product/TOP05248Z/d5.jpg","https://img.faballey.com/images/Product/TOP05248Z/d7.jpg","https://img.faballey.com/images/Product/TOP05248Z/d8.jpg"],
             "price":700,
-            "striked_price":1400
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":"TOP05030Z",
+            "product_name":"Green Embellished Halter Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05030Z/d3.jpg","https://img.faballey.com/images/Product/TOP05030Z/d4.jpg","https://img.faballey.com/images/Product/TOP05030Z/d5.jpg","https://img.faballey.com/images/Product/TOP05030Z/d7.jpg","https://img.faballey.com/images/Product/TOP05030Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP05265Z",
+            "product_name":"Green Front Knot Ruffled Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05265Z/d3.jpg","https://img.faballey.com/images/Product/TOP05265Z/d4.jpg","https://img.faballey.com/images/Product/TOP05265Z/d5.jpg","https://img.faballey.com/images/Product/TOP05265Z/d7.jpg","https://img.faballey.com/images/Product/TOP05265Z/d8.jpg"],
+            "price":650,
+            "striked_price":1300,
+            "offer":"50%"
+        },{
+            "id":" TOP05793Z",
+            "product_name":"Green Floral Ruched Back Tie Crop Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05793Z/d3.jpg","https://img.faballey.com/images/Product/TOP05793Z/d4.jpg","https://img.faballey.com/images/Product/TOP05793Z/d5.jpg","https://img.faballey.com/images/Product/TOP05793Z/d7.jpg","https://img.faballey.com/images/Product/TOP05793Z/d8.jpg"],
+            "price":1050,
+            "striked_price":1500,
+            "offer":"30%"
+        }
+    ],
+    "2xl":[
+        {
+            "id":" TOP05049Z",
+            "product_name":"Powder Blue Wrap Crop Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05049Z/d3.jpg","https://img.faballey.com/images/Product/TOP05049Z/d4.jpg","https://img.faballey.com/images/Product/TOP05049Z/d5.jpg","https://img.faballey.com/images/Product/TOP05049Z/d7.jpg","https://img.faballey.com/images/Product/TOP05049Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP05080Z",
+            "product_name":"Black Botanical Halter Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05080Z/d3.jpg","https://img.faballey.com/images/Product/TOP05080Z/d4.jpg","https://img.faballey.com/images/Product/TOP05080Z/d5.jpg","https://img.faballey.com/images/Product/TOP05080Z/d7.jpg","https://img.faballey.com/images/Product/TOP05080Z/d8.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":" TOP05892Z",
+            "product_name":"Blush Geometric Button Down Shirt ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05892Z/d3.jpg","https://img.faballey.com/images/Product/TOP05892Z/d4.jpg","https://img.faballey.com/images/Product/TOP05892Z/d5.jpg","https://img.faballey.com/images/Product/TOP05892Z/d6.jpg","https://img.faballey.com/images/Product/TOP05892Z/d7.jpg","https://img.faballey.com/images/Product/TOP05892Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP06041Z",
+            "product_name":"Pink Printed Button Down Belted Shirt",
+            "image_url":["https://img.faballey.com/images/Product/TOP06041Z/d3.jpg","https://img.faballey.com/images/Product/TOP06041Z/d4.jpg","https://img.faballey.com/images/Product/TOP06041Z/d5.jpg","https://img.faballey.com/images/Product/TOP06041Z/d6.jpg","https://img.faballey.com/images/Product/TOP06041Z/d7.jpg","https://img.faballey.com/images/Product/TOP06041Z/d8.jpg"],
+            "price":1120,
+            "striked_price":1600,
+            "offer":"30%"
+        },{
+            "id":" TOP05878Z",
+            "product_name":"Beige Geometric Overlap Front Smocked Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05878Z/d3.jpg","https://img.faballey.com/images/Product/TOP05878Z/d4.jpg","https://img.faballey.com/images/Product/TOP05878Z/d5.jpg","https://img.faballey.com/images/Product/TOP05878Z/d6.jpg","https://img.faballey.com/images/Product/TOP05878Z/d7.jpg","https://img.faballey.com/images/Product/TOP05878Z/d8.jpg"],
+            "price":1120,
+            "striked_price":1600,
+            "offer":"30%"
+        },{
+            "id":" TOP05672Z",
+            "product_name":"Yellow Floral Poplin Puff Sleeve Button Down Shirt ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05672Z/d3.jpg","https://img.faballey.com/images/Product/TOP05672Z/d4.jpg","https://img.faballey.com/images/Product/TOP05672Z/d5.jpg","https://img.faballey.com/images/Product/TOP05672Z/d7.jpg","https://img.faballey.com/images/Product/TOP05672Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP06041Z",
+            "product_name":"Pink Printed Button Down Belted Shirt",
+            "image_url":["https://img.faballey.com/images/Product/TOP05298Z/d3.jpg","https://img.faballey.com/images/Product/TOP05298Z/d4.jpg","https://img.faballey.com/images/Product/TOP05298Z/d5.jpg","https://img.faballey.com/images/Product/TOP05298Z/d7.jpg","https://img.faballey.com/images/Product/TOP05298Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":"TOP05248Z",
+            "product_name":"Mint Green Flared Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05248Z/d3.jpg","https://img.faballey.com/images/Product/TOP05248Z/d4.jpg","https://img.faballey.com/images/Product/TOP05248Z/d5.jpg","https://img.faballey.com/images/Product/TOP05248Z/d7.jpg","https://img.faballey.com/images/Product/TOP05248Z/d8.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":"TOP05030Z",
+            "product_name":"Green Embellished Halter Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05030Z/d3.jpg","https://img.faballey.com/images/Product/TOP05030Z/d4.jpg","https://img.faballey.com/images/Product/TOP05030Z/d5.jpg","https://img.faballey.com/images/Product/TOP05030Z/d7.jpg","https://img.faballey.com/images/Product/TOP05030Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP05265Z",
+            "product_name":"Green Front Knot Ruffled Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05265Z/d3.jpg","https://img.faballey.com/images/Product/TOP05265Z/d4.jpg","https://img.faballey.com/images/Product/TOP05265Z/d5.jpg","https://img.faballey.com/images/Product/TOP05265Z/d7.jpg","https://img.faballey.com/images/Product/TOP05265Z/d8.jpg"],
+            "price":650,
+            "striked_price":1300,
+            "offer":"50%"
+        },{
+            "id":" TOP05793Z",
+            "product_name":"Green Floral Ruched Back Tie Crop Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05793Z/d3.jpg","https://img.faballey.com/images/Product/TOP05793Z/d4.jpg","https://img.faballey.com/images/Product/TOP05793Z/d5.jpg","https://img.faballey.com/images/Product/TOP05793Z/d7.jpg","https://img.faballey.com/images/Product/TOP05793Z/d8.jpg"],
+            "price":1050,
+            "striked_price":1500,
+            "offer":"30%"
+        }
+    ],
+    "3xl":[
+        {
+            "id":"TOP04999Z",
+            "product_name":"Pink Floral Smocked Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04999Z/d3.jpg","https://img.faballey.com/images/Product/TOP04999Z/d4.jpg","https://img.faballey.com/images/Product/TOP04999Z/d5.jpg","https://img.faballey.com/Images/Product/TOP04999Z/d3.jpg","https://img.faballey.com/images/Product/TOP04999Z/d7.jpg","https://img.faballey.com/images/Product/TOP04999Z/d8.jpg"],
+            "price":825,
+            "striked_price":1650,
+            "offer":"50%"
+        },{
+            "id":"TOP04947Z",
+            "product_name":"Red Striped Cuffed Detail Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP04947Z/d3.jpg","https://img.faballey.com/images/Product/TOP04947Z/d4.jpg","https://img.faballey.com/images/Product/TOP04947Z/d5.jpg","https://img.faballey.com/images/Product/TOP04947Z/d7.jpg","https://img.faballey.com/images/Product/TOP04947Z/d8.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":"TOP04526Z",
+            "product_name":"Red Gingham Schiffli Hem Strappy Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04526Z/d3.jpg","https://img.faballey.com/images/Product/TOP04526Z/d4.jpg","https://img.faballey.com/images/Product/TOP04526Z/d5.jpg","https://img.faballey.com/images/Product/TOP04526Z/d6.jpg","https://img.faballey.com/images/Product/TOP04526Z/d7.jpg","https://img.faballey.com/images/Product/TOP04526Z/d8.jpg"],
+            "price":600,
+            "striked_price":1200,
+            "offer":"50%"
+        },{
+            "id":"TOP04456Z",
+            "product_name":"Red Twisted Hem Shimmer Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP04456Z/d3.jpg","https://img.faballey.com/images/Product/TOP04456Z/d4.jpg","https://img.faballey.com/images/Product/TOP04456Z/d5.jpg","https://img.faballey.com/images/Product/TOP04456Z/d6.jpg","https://img.faballey.com/images/Product/TOP04456Z/d7.jpg","https://img.faballey.com/images/Product/TOP04456Z/d8.jpg"],
+            "price":800,
+            "striked_price":1600,
+            "offer":"50%"
+        },{
+            "id":" TOP04985Z",
+            "product_name":"Mustard Schiffli Puff Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04985Z/d3.jpg","https://img.faballey.com/images/Product/TOP04985Z/d4.jpg","https://img.faballey.com/images/Product/TOP04985Z/d5.jpg","https://img.faballey.com/images/Product/TOP04985Z/d7.jpg","https://img.faballey.com/images/Product/TOP04985Z/d8.jpg"],
+            "price":825,
+            "striked_price":1650,
+            "offer":"50%"
+        },{
+            "id":"TOP04309Z",
+            "product_name":"Yellow Floral Belted Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04309Z/d3.jpg","https://img.faballey.com/images/Product/TOP04309Z/d4.jpg","https://img.faballey.com/images/Product/TOP04309Z/d5.jpg","https://img.faballey.com/images/Product/TOP04309Z/d6.jpg","https://img.faballey.com/images/Product/TOP04309Z/d7.jpg","https://img.faballey.com/images/Product/TOP04309Z/d9.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":"TOP04259Z",
+            "product_name":"Yellow Gingham Belted Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04259Z/d3.jpg","https://img.faballey.com/images/Product/TOP04259Z/d4.jpg","https://img.faballey.com/images/Product/TOP04259Z/d5.jpg","https://img.faballey.com/images/Product/TOP04259Z/d6.jpg","https://img.faballey.com/images/Product/TOP04259Z/d7.jpg","https://img.faballey.com/images/Product/TOP04259Z/d8.jpg"],
+            "price":450,
+            "striked_price":1500,
+            "offer":"70%"
+        }
+    ],
+    "4xl":[
+        {
+            "id":"TOP04947Z",
+            "product_name":"Red Striped Cuffed Detail Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP04947Z/d3.jpg","https://img.faballey.com/images/Product/TOP04947Z/d4.jpg","https://img.faballey.com/images/Product/TOP04947Z/d5.jpg","https://img.faballey.com/images/Product/TOP04947Z/d7.jpg","https://img.faballey.com/images/Product/TOP04947Z/d8.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":"TOP04526Z",
+            "product_name":"Red Gingham Schiffli Hem Strappy Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04526Z/d3.jpg","https://img.faballey.com/images/Product/TOP04526Z/d4.jpg","https://img.faballey.com/images/Product/TOP04526Z/d5.jpg","https://img.faballey.com/images/Product/TOP04526Z/d6.jpg","https://img.faballey.com/images/Product/TOP04526Z/d7.jpg","https://img.faballey.com/images/Product/TOP04526Z/d8.jpg"],
+            "price":600,
+            "striked_price":1200,
+            "offer":"50%"
+        },{
+            "id":"TOP04456Z",
+            "product_name":"Red Twisted Hem Shimmer Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP04456Z/d3.jpg","https://img.faballey.com/images/Product/TOP04456Z/d4.jpg","https://img.faballey.com/images/Product/TOP04456Z/d5.jpg","https://img.faballey.com/images/Product/TOP04456Z/d6.jpg","https://img.faballey.com/images/Product/TOP04456Z/d7.jpg","https://img.faballey.com/images/Product/TOP04456Z/d8.jpg"],
+            "price":800,
+            "striked_price":1600,
+            "offer":"50%"
+        },{
+            "id":" TOP04985Z",
+            "product_name":"Mustard Schiffli Puff Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04985Z/d3.jpg","https://img.faballey.com/images/Product/TOP04985Z/d4.jpg","https://img.faballey.com/images/Product/TOP04985Z/d5.jpg","https://img.faballey.com/images/Product/TOP04985Z/d7.jpg","https://img.faballey.com/images/Product/TOP04985Z/d8.jpg"],
+            "price":825,
+            "striked_price":1650,
+            "offer":"50%"
+        },{
+            "id":"TOP04309Z",
+            "product_name":"Yellow Floral Belted Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04309Z/d3.jpg","https://img.faballey.com/images/Product/TOP04309Z/d4.jpg","https://img.faballey.com/images/Product/TOP04309Z/d5.jpg","https://img.faballey.com/images/Product/TOP04309Z/d6.jpg","https://img.faballey.com/images/Product/TOP04309Z/d7.jpg","https://img.faballey.com/images/Product/TOP04309Z/d9.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":"TOP04259Z",
+            "product_name":"Yellow Gingham Belted Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04259Z/d3.jpg","https://img.faballey.com/images/Product/TOP04259Z/d4.jpg","https://img.faballey.com/images/Product/TOP04259Z/d5.jpg","https://img.faballey.com/images/Product/TOP04259Z/d6.jpg","https://img.faballey.com/images/Product/TOP04259Z/d7.jpg","https://img.faballey.com/images/Product/TOP04259Z/d8.jpg"],
+            "price":450,
+            "striked_price":1500,
+            "offer":"70%"
+        },{
+            "id":"TOP05690Z",
+            "product_name":"Buttercup Poplin Embroidered Crop Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05690Z/d3.jpg","https://img.faballey.com/images/Product/TOP05690Z/d4.jpg","https://img.faballey.com/images/Product/TOP05690Z/d5.jpg","https://img.faballey.com/images/Product/TOP05690Z/d7.jpg","https://img.faballey.com/images/Product/TOP05690Z/d8.jpg"],
+            "price":1050,
+            "striked_price":1500,
+            "offer":"30%"
+        },{
+            "id":"TOP05672Z",
+            "product_name":"Yellow Floral Poplin Puff Sleeve Button Down Shirt",
+            "image_url":["https://img.faballey.com/images/Product/TOP05672Z/d3.jpg","https://img.faballey.com/images/Product/TOP05672Z/d4.jpg","https://img.faballey.com/images/Product/TOP05672Z/d5.jpg","https://img.faballey.com/images/Product/TOP05672Z/d7.jpg","https://img.faballey.com/images/Product/TOP05672Z/d8.jpg"],
+            "price":1500,
+            "striked_price":1600,
+            "offer":"10%"
+        },{
+            "id":"TOP05248Z",
+            "product_name":"Mint Green Flared Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05248Z/d3.jpg","https://img.faballey.com/images/Product/TOP05248Z/d4.jpg","https://img.faballey.com/images/Product/TOP05248Z/d5.jpg","https://img.faballey.com/images/Product/TOP05248Z/d7.jpg","https://img.faballey.com/images/Product/TOP05248Z/d8.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":"TOP05030Z",
+            "product_name":"Green Embellished Halter Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05030Z/d3.jpg","https://img.faballey.com/images/Product/TOP05030Z/d4.jpg","https://img.faballey.com/images/Product/TOP05030Z/d5.jpg","https://img.faballey.com/images/Product/TOP05030Z/d7.jpg","https://img.faballey.com/images/Product/TOP05030Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP05265Z",
+            "product_name":"Green Front Knot Ruffled Peplum Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05265Z/d3.jpg","https://img.faballey.com/images/Product/TOP05265Z/d4.jpg","https://img.faballey.com/images/Product/TOP05265Z/d5.jpg","https://img.faballey.com/images/Product/TOP05265Z/d7.jpg","https://img.faballey.com/images/Product/TOP05265Z/d8.jpg"],
+            "price":650,
+            "striked_price":1300,
+            "offer":"50%"
+        },{
+            "id":" TOP05793Z",
+            "product_name":"Green Floral Ruched Back Tie Crop Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05793Z/d3.jpg","https://img.faballey.com/images/Product/TOP05793Z/d4.jpg","https://img.faballey.com/images/Product/TOP05793Z/d5.jpg","https://img.faballey.com/images/Product/TOP05793Z/d7.jpg","https://img.faballey.com/images/Product/TOP05793Z/d8.jpg"],
+            "price":1050,
+            "striked_price":1500,
+            "offer":"30%"
+        }
+    ],
+    "blue":[
+        {
+            "id":"TOP04268Z",
+            "product_name":"Navy High Neck Pleated Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04268Z/1.jpg","https://img.faballey.com/images/Product/TOP04268Z/2.jpg","https://img.faballey.com/images/Product/TOP04268Z/d5.jpg","https://img.faballey.com/images/Product/TOP04268Z/d6.jpg","https://img.faballey.com/images/Product/TOP04268Z/d7.jpg","https://img.faballey.com/images/Product/TOP04268Z/d8.jpg"],
+            "price":420,
+            "striked_price":1400,
+            "offer":"70%"
+        },
+        {
+            "id":"TOP05375Z",
+            "product_name":"Slate Blue Tie Up Blouse",
+            "image_url":["https://img.faballey.com/images/Product/TOP05375Z/1.jpg","https://img.faballey.com/images/Product/TOP05375Z/2.jpg","https://img.faballey.com/images/Product/TOP05375Z/d5.jpg","https://img.faballey.com/images/Product/TOP05375Z/d7.jpg","https://img.faballey.com/images/Product/TOP05375Z/d8.jpg","https://img.faballey.com/images/Product/TOP05375Z/d9.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"70%"
+        },{
+            "id":"TOP05083Z",
+            "product_name":"Navy Striped Puff Sleeve Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05083Z/1.jpg","https://img.faballey.com/images/Product/TOP05083Z/2.jpg","https://img.faballey.com/images/Product/TOP05083Z/d5.jpg","https://img.faballey.com/images/Product/TOP05083Z/d7.jpg","https://img.faballey.com/images/Product/TOP05083Z/d8.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":" TOP04703Z",
+            "product_name":"Powder Blue Lace High Neck Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04703Z/1.jpg","https://img.faballey.com/images/Product/TOP04703Z/2.jpg","https://img.faballey.com/images/Product/TOP04703Z/d5.jpg","https://img.faballey.com/images/Product/TOP04703Z/d7.jpg","https://img.faballey.com/images/Product/TOP04703Z/d8.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP02745A",
+            "product_name":"BASICS Blue Choker T-Shirt",
+            "image_url":["https://img.faballey.com/images/Product/TOP02745A/d3.jpg","https://img.faballey.com/images/Product/TOP02745A/d4.jpg","https://img.faballey.com/images/Product/TOP02745A/d5.jpg","https://img.faballey.com/images/Product/TOP02745A/d6.jpg","https://img.faballey.com/images/Product/TOP02745A/d7.jpg"],
+            "price":550,
+            "striked_price":1100,
+            "offer":"50%"
+        },{
+            "id":" TOP05247Z",
+            "product_name":"Blue Buttoned Puff Sleeve Blouse ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05247Z/d3.jpg","https://img.faballey.com/images/Product/TOP05247Z/d4.jpg","https://img.faballey.com/images/Product/TOP05247Z/d5.jpg","https://img.faballey.com/images/Product/TOP05247Z/d7.jpg","https://img.faballey.com/images/Product/TOP05247Z/d8.jpg"],
+            "price":700,
+            "striked_price":1400,
+            "offer":"50%"
+        },{
+            "id":" TOP05723Z",
+            "product_name":"Navy Embellished Halter Neck Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05723Z/d3.jpg","https://img.faballey.com/images/Product/TOP05723Z/d4.jpg","https://img.faballey.com/images/Product/TOP05723Z/d5.jpg","https://img.faballey.com/images/Product/TOP05723Z/d7.jpg","https://img.faballey.com/images/Product/TOP05723Z/d8.jpg"],
+            "price":550,
+            "striked_price":1100,
+            "offer":"50%"
+        },{
+            "id":" TOP05642Z",
+            "product_name":"Navy Ruffled Strappy One Shoulder Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP05642Z/d3.jpg","https://img.faballey.com/images/Product/TOP05642Z/d4.jpg","https://img.faballey.com/images/Product/TOP05642Z/d5.jpg","https://img.faballey.com/images/Product/TOP05642Z/d6.jpg","https://img.faballey.com/images/Product/TOP05642Z/d7.jpg"],
+            "price":750,
+            "striked_price":1500,
+            "offer":"50%"
+        },{
+            "id":" TOP04913Z",
+            "product_name":"Navy Jersey Tank Top",
+            "image_url":["https://img.faballey.com/images/Product/TOP04913Z/d3.jpg","https://img.faballey.com/images/Product/TOP04913Z/d4.jpg","https://img.faballey.com/images/Product/TOP04913Z/d5.jpg","https://img.faballey.com/images/Product/TOP04913Z/d7.jpg","https://img.faballey.com/images/Product/TOP04913Z/d8.jpg"],
+            "price":475,
+            "striked_price":950,
+            "offer":"50%"
+        }
+    ],
+    "orange":[
+        {
+            "id":" TOP05930Z",
+            "product_name":"Rust Polka Strappy Tie Up Blouse ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05930Z/d3.jpg","https://img.faballey.com/images/Product/TOP05930Z/d4.jpg","https://img.faballey.com/images/Product/TOP05930Z/d5.jpg","https://img.faballey.com/images/Product/TOP05930Z/d6.jpg","https://img.faballey.com/images/Product/TOP05930Z/d7.jpg"],
+            "price":1300,
+            "striked_price":2600,
+            "offer":"50%"
+        },{
+            "id":"  TOP05711Z",
+            "product_name":"Orange Floral Frilled Puff Sleeve Smocked Peplum Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05711Z/d3.jpg","https://img.faballey.com/images/Product/TOP05711Z/d4.jpg","https://img.faballey.com/images/Product/TOP05711Z/d5.jpg","https://img.faballey.com/images/Product/TOP05711Z/d7.jpg","https://img.faballey.com/images/Product/TOP05711Z/d8.jpg"],
+            "price":1440,
+            "striked_price":1600,
+            "offer":"10%"
+        },{
+            "id":" TOP05165Z",
+            "product_name":"Rust Neck Tie Floral Lace Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05165Z/d3.jpg","https://img.faballey.com/images/Product/TOP05165Z/d4.jpg","https://img.faballey.com/images/Product/TOP05165Z/d5.jpg","https://img.faballey.com/images/Product/TOP05165Z/d7.jpg","https://img.faballey.com/images/Product/TOP05165Z/d8.jpg"],
+            "price":900,
+            "striked_price":1800,
+            "offer":"50%"
+        },{
+            "id":" TOP05107Z",
+            "product_name":"Rust Side Tie Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05107Z/d3.jpg","https://img.faballey.com/images/Product/TOP05107Z/d4.jpg","https://img.faballey.com/images/Product/TOP05107Z/d5.jpg","https://img.faballey.com/images/Product/TOP05107Z/d7.jpg","https://img.faballey.com/images/Product/TOP05107Z/d8.jpg"],
+            "price":520,
+            "striked_price":1300,
+            "offer":"60%"
+        },{
+            "id":" TOP04633Z",
+            "product_name":"CLASSICS Rust Pleated Sleeveless Blouse ",
+            "image_url":["https://img.faballey.com/images/Product/TOP04633Z/d3.jpg","https://img.faballey.com/images/Product/TOP04633Z/d4.jpg","https://img.faballey.com/images/Product/TOP04633Z/d5.jpg","https://img.faballey.com/images/Product/TOP04633Z/d6.jpg","https://img.faballey.com/images/Product/TOP04633Z/d7.jpg","https://img.faballey.com/images/Product/TOP04633Z/d8.jpg"],
+            "price":600,
+            "striked_price":1200,
+            "offer":"50%"
+        },{
+            "id":" TOP05926Z",
+            "product_name":"Rust Floral Strappy Smocked Front Tie Top ",
+            "image_url":["https://img.faballey.com/images/Product/TOP05926Z/d3.jpg","https://img.faballey.com/images/Product/TOP05926Z/d4.jpg","https://img.faballey.com/images/Product/TOP05926Z/d5.jpg","https://img.faballey.com/images/Product/TOP05926Z/d6.jpg","https://img.faballey.com/images/Product/TOP05926Z/d7.jpg","https://img.faballey.com/images/Product/TOP05926Z/d8.jpg"],
+            "price":1300,
+            "striked_price":1400,
+            "offer":"50%"
         }
     ]
 }
