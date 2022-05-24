@@ -26,11 +26,16 @@ function displaydata(res){
     image1.onmouseleave=()=>{
         image1.src=image_url[0];
     }
+    image1.addEventListener("click",()=>{
+        localStorage.removeItem("product_id");
+        console.log(id);
+        localStorage.setItem("product_id",JSON.stringify(id));
+        location.href='./pdescpage.html'
+    })
     let pname=document.createElement("p");
     pname.innerText=product_name;
     pname.style="font-size:14px;font-weight:500"
-    let i=document.createElement("i");
-    i.class="fa-solid fa-indian-rupee-sign";
+    
     let price1=document.createElement("c");
     price1.innerText=price;
     price1.style="color:#fc6486;font-size:15px;font-weight:600";
@@ -394,16 +399,16 @@ document.querySelector("#sort-by").addEventListener("change",async ()=>{
         } catch (error) {
             console.log(error);
         }
-    }else if(result="Price:High to Low"){
+    }else if(result=="Price:High to Low"){
         try {
-            let response=await fetch("http://localhost:3000/topsdata?_sort=price&_order=");
+            let response=await fetch("http://localhost:3000/topsdata?_sort=price&_order=desc");
             let res=await response.json();
             console.log(res);
             displaydata(res);
         } catch (error) {
             console.log(error);
         }
-    }else if(result="Price:Low to High"){
+    }else if(result=="Price:Low to High"){
         try {
             let response=await fetch("http://localhost:3000/topsdata?_sort=price&_order=asc");
             let res=await response.json();
