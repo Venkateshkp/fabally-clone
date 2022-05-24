@@ -1,4 +1,6 @@
 
+
+// fetching and displaying products
 async function fetchanddisplay(){
     try {
         let response=await fetch("http://localhost:3000/topsdata");
@@ -46,4 +48,282 @@ function displaydata(res){
    })
 }
 
-//<i class="fa-solid fa-indian-rupee-sign"></i>
+
+// tops category dropdown
+
+document.querySelector("#topcatdisplayangle1").addEventListener("click",()=>{
+    let res=document.querySelector("#topcatdisplay1").style.display;
+    if(res==="block"){
+        document.querySelector("#topcatdisplayangle1").setAttribute("class","fa-solid fa-angle-right")
+        document.querySelector("#topcatdisplay1").style="display:none"
+    }
+   else{
+    document.querySelector("#topcatdisplayangle1").setAttribute("class","fa-solid fa-angle-down")
+    document.querySelector("#topcatdisplay1").style="display:block"
+   }
+})
+
+        //lounge wear drop down
+document.querySelector("#loungewearangle").addEventListener("click",()=>{
+    let res=document.querySelector("#loungeweardisplay").style.display;
+    if(res==="block"){
+        document.querySelector("#loungewearangle").setAttribute("class","fa-solid fa-angle-right")
+        document.querySelector("#loungeweardisplay").style="display:none"
+    }
+   else{
+    document.querySelector("#loungewearangle").setAttribute("class","fa-solid fa-angle-down")
+    document.querySelector("#loungeweardisplay").style="display:block"
+   }
+})
+
+         //dresses drop down
+document.querySelector("#dressesangle").addEventListener("click",()=>{
+    let res=document.querySelector("#dressesdisplay").style.display;
+    if(res==="block"){
+        document.querySelector("#dressesangle").setAttribute("class","fa-solid fa-angle-right")
+        document.querySelector("#dressesdisplay").style="display:none"
+    }
+   else{
+    document.querySelector("#dressesangle").setAttribute("class","fa-solid fa-angle-down")
+    document.querySelector("#dressesdisplay").style="display:block"
+   }
+})
+
+        //skirts dropdown
+document.querySelector("#skirtsangle").addEventListener("click",()=>{
+    let res=document.querySelector("#skirtsdisplay").style.display;
+    if(res==="block"){
+        document.querySelector("#skirtsangle").setAttribute("class","fa-solid fa-angle-right")
+        document.querySelector("#skirtsdisplay").style="display:none"
+    }
+   else{
+    document.querySelector("#skirtsangle").setAttribute("class","fa-solid fa-angle-down")
+    document.querySelector("#skirtsdisplay").style="display:block"
+   }
+})
+
+     //bottoms dropdown
+document.querySelector("#bottomangle").addEventListener("click",()=>{
+    let res=document.querySelector("#bottomdisplay").style.display;
+    if(res==="block"){
+        document.querySelector("#bottomangle").setAttribute("class","fa-solid fa-angle-right")
+        document.querySelector("#bottomdisplay").style="display:none"
+    }
+   else{
+    document.querySelector("#bottomangle").setAttribute("class","fa-solid fa-angle-down")
+    document.querySelector("#bottomdisplay").style="display:block"
+   }
+})
+
+  //winter dropdown
+document.querySelector("#winterangle").addEventListener("click",()=>{
+    let res=document.querySelector("#winterdisplay").style.display;
+    if(res==="block"){
+        document.querySelector("#winterangle").setAttribute("class","fa-solid fa-angle-right")
+        document.querySelector("#winterdisplay").style="display:none"
+    }
+   else{
+    document.querySelector("#winterangle").setAttribute("class","fa-solid fa-angle-down")
+    document.querySelector("#winterdisplay").style="display:block"
+   }
+})
+
+   // size filter dropdown list
+document.querySelector("#sizecaret").addEventListener("click",()=>{
+    let res=document.querySelector("#sizebox").style.display;
+    if(res==="block"){
+        document.querySelector("#sizebox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:block"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   
+   }
+})
+
+    //color filter drop down
+document.querySelector("#colorcaret").addEventListener("click",()=>{
+    let res=document.querySelector("#colorbox").style.display;
+    if(res==="block"){
+        document.querySelector("#colorbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:block"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+    // occasion filter drop down
+document.querySelector("#occasioncaret").addEventListener("click",()=>{
+    let res=document.querySelector("#occasionbox").style.display;
+    if(res==="block"){
+        document.querySelector("#occasionbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:block"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+
+  //fabric filter drop down
+  document.querySelector("#fabriccaret").addEventListener("click",()=>{
+    let res=document.querySelector("#fabricbox").style.display;
+    if(res==="block"){
+        document.querySelector("#fabricbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:block"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+
+// pattern filter drop down
+document.querySelector("#patterncaret").addEventListener("click",()=>{
+    let res=document.querySelector("#patternbox").style.display;
+    if(res==="block"){
+        document.querySelector("#patternbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:block"
+   }
+})
+
+//trend filter drop down
+document.querySelector("#trendcaret").addEventListener("click",()=>{
+    let res=document.querySelector("#trendbox").style.display;
+    if(res==="block"){
+        document.querySelector("#trendbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:block"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+
+//discount filter drop down
+document.querySelector("#discountcaret").addEventListener("click",()=>{
+    let res=document.querySelector("#discountbox").style.display;
+    if(res==="block"){
+        document.querySelector("#discountbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:block"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+
+//sleeves filter drop down
+document.querySelector("#sleevescaret").addEventListener("click",()=>{
+    let res=document.querySelector("#sleevesbox").style.display;
+    if(res==="block"){
+        document.querySelector("#sleevesbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:block"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+
+//length filter drop down
+document.querySelector("#lengthcaret").addEventListener("click",()=>{
+    let res=document.querySelector("#lengthbox").style.display;
+    if(res==="block"){
+        document.querySelector("#lengthbox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:none"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:block"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+//price filter drop down
+document.querySelector("#pricecaret").addEventListener("click",()=>{
+    let res=document.querySelector("#pricebox").style.display;
+    if(res==="block"){
+        document.querySelector("#pricebox").style="display:none"
+    }
+   else{
+    document.querySelector("#pricebox").style="display:block"
+    document.querySelector("#fabricbox").style="display:none"
+    document.querySelector("#occasionbox").style="display:none"
+    document.querySelector("#colorbox").style="display:none"
+    document.querySelector("#sizebox").style="display:none"
+    document.querySelector("#lengthbox").style="display:none"
+    document.querySelector("#sleevesbox").style="display:none"
+    document.querySelector("#discountbox").style="display:none"
+    document.querySelector("#trendbox").style="display:none"
+    document.querySelector("#patternbox").style="display:none"
+   }
+})
+
