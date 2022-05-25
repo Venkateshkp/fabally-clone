@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curves</title>
+    <link rel="stylesheet" href="./styles/navBar.css">
     <link rel="stylesheet" href="./styles/curves.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
     <div id="navBar"></div>
@@ -53,105 +55,81 @@
         <div id="rightContainer">
             <div id="filterContainer">
                 <div id="filterOptions">
-                    <div class="filterOptions">
-                        <p>Size</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="2XL"> <label for="2XL">2XL</label></span>
-                            <span><input type="checkbox" name="3XL"> <label for="3XL">3XL</label></span>
-                            <span><input type="checkbox" name="4XL"> <label for="4XL">4XL</label></span>
-                            <span><input type="checkbox" name="XL"> <label for="XL">XL</label></span>
-                        </div>
-                    </div>
-                    <div class="filterOptions">
-                        <p>Colour</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="blue"> <label for="blue">Blue</label></span>
-                            <span><input type="checkbox" name="black"> <label for="black">Black</label></span>
-                            <span><input type="checkbox" name="pink"> <label for="pink">Pink</label></span>
-                            <span><input type="checkbox" name="green"> <label for="green">Green</label></span>
-                            <span><input type="checkbox" name="white"> <label for="white">White</label></span>
-                            <span><input type="checkbox" name="maroon"> <label for="maroon">Maroon</label></span>
-                            <span><input type="checkbox" name="purple"> <label for="purple">Purple</label></span>
-                            <span><input type="checkbox" name="grey"> <label for="grey">Grey</label></span>
-                            <span><input type="checkbox" name="yellow"> <label for="yellow">Yellow</label></span>
-                            <span><input type="checkbox" name="olive"> <label for="olive">Olive</label></span>
-                            <span><input type="checkbox" name="coral"> <label for="coral">Coral</label></span>
-                            <span><input type="checkbox" name="multi"> <label for="multi">Multi</label></span>
-                            <span><input type="checkbox" name="peach"> <label for="peach">Peach</label></span>
-                        </div>
-                    </div>
-                    <div class="filterOptions">
-                        <p>Occasion</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="casual"><label for="casual">Casualware</label></span>
-                            <span><input type="checkbox" name="work"> <label for="work">Workware</label></span>
-                        </div>
-                    </div>
-                    <div class="filterOptions">
-                        <p>Fabric</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="georgette"> <label for="georgette">Georgette</label></span>
-                            <span><input type="checkbox" name="crepe"> <label for="crepe">Crepe</label></span>
-                            <span><input type="checkbox" name="Lace"> <label for="Lace">Lace</label></span>
-                            <span><input type="checkbox" name="Jersey"> <label for="Jersey">Jersey</label></span>
-                            <span><input type="checkbox" name="Blended"> <label for="Blended">Blended</label></span>
-                            <span><input type="checkbox" name="Poly Lycra"> <label for="Poly Lycra">Poly Lycra</label></span>
-                            <span><input type="checkbox" name="Polyster"> <label for="Polyster">Polyster</label></span>
-                            <span><input type="checkbox" name="Viscose"><label for="Viscose">Viscose</label></span>
-                        </div>
-                    </div>
-                    <div class="filterOptions">
-                        <p>Pattern</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="Floral"> <label for="Floral">Floral</label></span>
-                            <span><input type="checkbox" name="Solid"> <label for="Solid">Solid</label></span>
-                            <span><input type="checkbox" name="Abstract"> <label for="Abstract">Abstract</label></span>
-                            <span><input type="checkbox" name="Striped"> <label for="Striped">Striped</label></span>
-                            <span><input type="checkbox" name="Embellished"> <label for="Embellished">Embellished</label></span>
-                            <span><input type="checkbox" name="Polka Dots"> <label for="Polka Dots">Polka Dots</label></span>
-                            <span><input type="checkbox" name="Self Design"> <label for="Self Design">Self Design</label></span>
-                            <span><input type="checkbox" name="Geometric"> <label for="Geometric">Geometric</label></span>
-                        </div>
-                    </div>
-                    <div class="filterOptions">
-                        <p>Trend</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="Cold Shoulder"><label for="Cold Shoulder">Cold Shoulder</label></span>
-                            <span><input type="checkbox" name="Bell Sleeves"> <label for="Bell Sleeves">Bell Sleeves</label></span>
-                            <span><input type="checkbox" name="Fushia"> <label for="Fushia">Fushia</label></span>
-                            <span><input type="checkbox" name="Rushia"> <label for="Rushia">Rushia</label></span>
-                        </div>
-                    </div>
-                    <div class="filterOptions">
-                        <p>Discount</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="10%"> <label for="10%">10% and above</label></span>
-                            <span><input type="checkbox" name="20%"> <label for="20%">20% and above</label></span>
-                            <span><input type="checkbox" name="30% "> <label for="30% ">30% and above</label></span>
-                            <span><input type="checkbox" name="40%"> <label for="40%">40% and above</label></span>
-                            <span><input type="checkbox" name="50%"> <label for="50%">50% and above</label></span>
-                            <span><input type="checkbox" name="60%"> <label for="60%">60% and above</label></span>
-                            <span><input type="checkbox" name="70%"> <label for="70%">70% and above</label></span>
-                        </div>
-                    </div>
-                    <div class="filterOptions">
-                        <p>Price</p>
-                        <img  class="arrow_down" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNjY2NjY2MiPjxwYXRoIGQ9Ik04NiwxMzEuODY2NjdjLTEuNDY3NzMsMCAtMi45MzU0NywtMC41NjE4NyAtNC4wNTM0NywtMS42Nzk4N2wtNTcuMzMzMzMsLTU3LjMzMzMzYy0xLjYzOTczLC0xLjYzOTczIC0yLjEzMjgsLTQuMTA1MDcgLTEuMjQ0MTMsLTYuMjQ5MzNjMC44ODI5MywtMi4xNDQyNyAyLjk4MTMzLC0zLjUzNzQ3IDUuMjk3NiwtMy41Mzc0N2gxMTQuNjY2NjdjMi4zMTYyNywwIDQuNDE0NjcsMS4zOTMyIDUuMjk3NiwzLjUzNzQ3YzAuODg4NjcsMi4xNDQyNyAwLjM5NTYsNC42MDk2IC0xLjI0NDEzLDYuMjQ5MzNsLTU3LjMzMzMzLDU3LjMzMzMzYy0xLjExOCwxLjExOCAtMi41ODU3MywxLjY3OTg3IC00LjA1MzQ3LDEuNjc5ODd6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" alt="">
-                        <div class="filterContent">
-                            <span><input type="checkbox" name="lessthan500"> <label for="lessthan500">Less than ₹500</label></span>
-                            <span><input type="checkbox" name="₹501-₹1000"> <label for="₹501-₹1000">₹501-₹1000</label></span>
-                            <span><input type="checkbox" name="₹1001-₹1500"> <label for="₹1001-₹1500">₹1001-₹1500</label></span>
-                            <span><input type="checkbox" name="₹1501-₹2000"> <label for="₹1501-₹2000">₹1501-₹2000</label></span>
-                            <span><input type="checkbox" name="₹2001-₹2500"> <label for="₹2001-₹2500">₹2001-₹2500</label></span>
-                        </div>
-                    </div>
+                    <select class="filterOptions">
+                        <option value="">Size</option>
+                        <option value="2XL">2XL</option>
+                        <option value="3XL">3XL</option>
+                        <option value="4XL">4XL</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <select class="filterOptions">
+                        <option value="">Colour</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Black">Black</option>
+                        <option value="Pink">Pink</option>
+                        <option value="Green">Green</option>
+                        <option value="White">White</option>
+                        <option value="Maroon">Maroon</option>
+                        <option value="Purple">Purple</option>
+                        <option value="Grey">Grey</option>
+                        <option value="Yellow">Yellow</option>
+                        <option value="Olive">Olive</option>
+                        <option value="Coral">Coral</option>
+                        <option value="Multi">Multi</option>
+                        <option value="Peach">Peach</option>
+                    </select>
+                    <select class="filterOptions">
+                        <option value="">Occasion</option>
+                        <option value="Casualware">Casualware</option>
+                        <option value="Workware">Workware</option>
+                    </select>
+                    <select class="filterOptions">
+                        <option value="">Fabric</option>
+                        <option value="Georgette">Georgette</option>
+                        <option value="Crepe">Crepe</option>
+                        <option value="Lace">Lace</option>
+                        <option value="Jersey">Jersey</option>
+                        <option value="Blended">Blended</option>
+                        <option value="Poly Lycra">Poly Lycra</option>
+                        <option value="Polyster">Polyster</option>
+                        <option value="Viscose">Viscose</option>
+                    </select>
+                    <select class="filterOptions">
+                        <option value="">Pattern</option>
+                        <option value="Floral">Floral</option>
+                        <option value="Solid">Solid</option>
+                        <option value="Abstract">Abstract</option>
+                        <option value="Striped">Striped</option>
+                        <option value="Embellished">Embellished</option>
+                        <option value="Polka Dots">Polka Dots</option>
+                        <option value="Self Design">Self Design</option>
+                        <option value="Geometric">Geometric</option>
+                    </select>      
+                    <select class="filterOptions">
+                        <option value="">Trend</option>
+                        <option value="Cold Shoulder">Cold Shoulder</option>
+                        <option value="Bell Sleeves">Bell Sleeves</option>
+                        <option value="Fushia">Fushia</option>
+                        <option value="Rushia">Rushia</option>
+                    </select>
+                    <select class="filterOptions">
+                        <option value="">Discount</option>
+                        <option value="10">10% and above</option>
+                        <option value="20">20% and above</option>
+                        <option value="30">30% and above</option>
+                        <option value="40">40% and above</option>
+                        <option value="50">50% and above</option>
+                        <option value="60">60% and above</option>
+                        <option value="70">70% and above</option>
+                    </select>
+                    <select class="filterOptions">
+                        <option value="">Price</option>
+                        <option value="500">Less than 500</option>
+                        <option value="1000">₹501-₹1000</option>
+                        <option value="1500">₹1001-₹1500</option>
+                        <option value="2000">₹1501-₹2000</option>
+                        <option value="2500">₹2001-₹2500</option>
+                    </select>
                 </div>
                 <hr>
                 <div id="sortContainer">
@@ -180,6 +158,6 @@
     </div>
 </div>
     <div id="footer"></div>
-    <script src="./scripts/curves.js"></script>
+    <script type="module" src="./curves.js"></script>
 </body>
 </html>
