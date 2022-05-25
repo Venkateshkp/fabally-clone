@@ -64,9 +64,20 @@ function displayData(data,container)
         discountPrice.style.display="inline";
         discountPrice.style.marginRight="10px";
         discountPrice.style.color="#ffa2b6";
+        productCard.classList.add("products");
         productCard.append(discountDiv,productImg,productName,discountPrice,productPrice);
         container.append(productCard);
-        
+        productCard.style.cursor="pointer";
+        productCard.addEventListener('click',function()
+        {
+            if(localStorage.getItem('checkoutId')==null)
+            {
+                let checkoutId=[];
+                checkoutId.push(element.id);
+                localStorage.setItem('checkoutId',JSON.stringify(checkoutId));
+                window.location.href="./checkoutPage.html";
+            }
+        });
     });
 }
 // Double click to make the display none of options container
@@ -248,4 +259,4 @@ sortOptions.addEventListener('change', async function()
         let container=document.getElementById("productContainer");
         displayData(curveData,container); 
     }
-})
+});
