@@ -1,4 +1,9 @@
 
+window.addEventListener("scroll" , function(){
+    var header = document.querySelector(".navbar")
+    header.classList.toggle("sticky",window.scrollY > 0);
+})
+
 async function fetchproductdata(){
     try {
         let id=JSON.parse(localStorage.getItem("product_id"));
@@ -15,7 +20,7 @@ fetchproductdata();
 function displaydata(res){
     let{id,product_name,image_url,price,striked_price,offer}=res;
     let leftbox=document.querySelector("#mdlleft");
-    let rightbox=document.querySelector("#mdlright");
+    let rightbox1=document.querySelector("#mdlright1");
     leftbox.innerHTML="";
     let leftboxheading=document.createElement("p");
     leftboxheading.innerText=`HOME | TOPS | ${product_name}`;
@@ -52,8 +57,29 @@ function displaydata(res){
     sku.innerText=`SKU:${id}`;
     sku.style="font-size:12px;font-weight:700;margin-top:10px;color:#999;font-family:san-serif,arial"
     rightcard.append(rightproduct_name,r1,striked,r2,price1,discount,taxinclusive,sku);
-    rightbox.append(rightcard);
+    rightbox1.append(rightcard);
     
     
    //#fc6486; 
 }
+
+
+document.querySelector("#desc").addEventListener("click",()=>{
+    document.querySelector("#tab-1").style="display:block";
+    document.querySelector("#tab-2").style="display:none";
+    document.querySelector("#tab-3").style="display:none";
+})
+
+document.querySelector("#details").addEventListener("click",()=>{
+    document.querySelector("#tab-1").style="display:none";
+    document.querySelector("#tab-2").style="display:block";
+    document.querySelector("#tab-3").style="display:none";
+})
+
+document.querySelector("#shipping").addEventListener("click",()=>{
+    document.querySelector("#tab-3").style="display:block";
+    document.querySelector("#tab-1").style="display:none";
+    document.querySelector("#tab-2").style="display:none";
+    
+})
+

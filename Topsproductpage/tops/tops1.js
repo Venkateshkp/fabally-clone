@@ -1,4 +1,8 @@
 
+window.addEventListener("scroll" , function(){
+    var header = document.querySelector(".navbar")
+    header.classList.toggle("sticky",window.scrollY > 0);
+})
 
 // fetching and displaying products
 async function fetchanddisplay(){
@@ -16,10 +20,11 @@ function displaydata(res){
    let productsdisplay=document.querySelector("#productsdisplay");
    productsdisplay.innerHTML="";
    res.forEach((product)=>{
-    let {id,product_name,image_url,price,striked_price}=product;
+    let {id,product_name,image_url,price,striked_price,offer}=product;
     let card=document.createElement("div");
     let image1=document.createElement("img");
     image1.src=image_url[0];
+    // image1.style="position:relative";
     image1.onmouseenter=()=>{
         image1.src=image_url[1];
     }
@@ -30,8 +35,9 @@ function displaydata(res){
         localStorage.removeItem("product_id");
         console.log(id);
         localStorage.setItem("product_id",JSON.stringify(id));
-        location.href='./pdescpage.html'
+        window.open('./pdescpage.html', '_blank');
     })
+    
     let pname=document.createElement("p");
     pname.innerText=product_name;
     pname.style="font-size:14px;font-weight:500"
