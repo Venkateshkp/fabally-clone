@@ -53,12 +53,15 @@ let url="http://localhost:3000/curvesData";
             discount.style.display="inline";
             let text1=document.createElement('p');
             text1.textContent="Inclusive of all taxes";
+            text1.style.color="#03bb5c";
             let productId=document.createElement('p');
             productId.textContent=`SKU: ${element.id}`;
+            productId.style.color="#999";
             rightContainer.append(productTitle,productPrice,discountPrice,discount,text1,productId);
             localStorage.removeItem('checkoutId');
           }
       });
+    }
       let descriptionHead=document.querySelectorAll(".descriptionHead");
       let descriptionContent=document.querySelectorAll(".descriptionContent");
       descriptionContent[0].style.display="block";
@@ -73,4 +76,19 @@ let url="http://localhost:3000/curvesData";
               descriptionContent[i].style.display="block";
           })
       }
-  }
+      let  productContainers = [...document.querySelectorAll('.similarProductsSlider')];
+      let nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+      let preBtn = [...document.querySelectorAll('.pre-btn')];
+      
+      productContainers.forEach((item, i) => {
+          let containerDimensions = item.getBoundingClientRect();
+          let containerWidth = containerDimensions.width;
+      
+          nxtBtn[i].addEventListener('click', () => {
+              item.scrollLeft += containerWidth;
+          })
+      
+          preBtn[i].addEventListener('click', () => {
+              item.scrollLeft -= containerWidth;
+          })
+      })
