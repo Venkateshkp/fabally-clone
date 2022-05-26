@@ -82,6 +82,7 @@ body
     padding: 18px 0;
     float: left;
     border: none;
+    cursor: pointer;
 }
 #buttonContainer :last-child
 {
@@ -98,6 +99,7 @@ body
     box-sizing: border-box;
     margin-left: 3%;
     white-space: nowrap;
+    cursor: pointer;
 }
 #offerContainer
 {

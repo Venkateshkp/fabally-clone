@@ -1,195 +1,357 @@
-
 {
-    "curvesData": [  
-    {  
-      "id": "CTP00562D",  
+  "curvesData": [
+    {
+      "id": "CTP00562D",
       "product_name": "CURVE Dusty Pink Back Tie Bell Sleeve Blouse",
-      "image_url":["https://img.faballey.com/images/Product/CTP00562D/d3.jpg","https://img.faballey.com/images/Product/CTP00562D/d4.jpg","https://img.faballey.com/images/Product/CTP00562D/d5.jpg","https://img.faballey.com/images/Product/CTP00562D/d7.jpg","https://img.faballey.com/images/Product/CTP00562D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00562D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d8.jpg"
+      ],
       "price": 1400,
-      "discount":50,
+      "discount": 50,
       "Color": "Pink",
       "Material": "Crepe",
       "Neck": "V-Neck",
       "Sleeves": "Full",
-      "Closure": "Slip On" 
-    },  
-    {  
-      "id": "CTP00580D",  
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CTP00580D",
       "product_name": "CURVE Blush Ruched Sleeve Blouse",
-      "image_url":["https://img.faballey.com/images/Product/CTP00580D/d3.jpg","https://img.faballey.com/images/Product/CTP00580D/d4.jpg","https://img.faballey.com/images/Product/CTP00580D/d5.jpg","https://img.faballey.com/images/Product/CTP00580D/d7.jpg","https://img.faballey.com/images/Product/CTP00580D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00580D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00580D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00580D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00580D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00580D/d8.jpg"
+      ],
       "price": 1400,
-      "discount":50,
+      "discount": 50,
       "Color": "Pink",
       "Material": "Crepe",
       "Neck": "Round",
       "Sleeves": "Three Quarter",
-     " Closure": "Slip On"  
-    } ,
-    {  
-      "id": "CDR00500D",  
+      " Closure": "Slip On"
+    },
+    {
+      "id": "CDR00500D",
       "product_name": "CURVE Sea Foam Pleated Shift Dress with Tan Belt",
-      "image_url":["https://img.faballey.com/images/Product/CDR00500D/d3.jpg","https://img.faballey.com/images/Product/CDR00500D/d4.jpg","https://img.faballey.com/images/Product/CDR00500D/d5.jpg","https://img.faballey.com/images/Product/CDR00500D/d7.jpg","https://img.faballey.com/images/Product/CDR00500D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00500D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00500D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00500D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00500D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00500D/d8.jpg"
+      ],
       "price": 2800,
-      "discount":30,
+      "discount": 30,
       "Color": "Green",
       "Material": "Georgette",
       "Neck": "Round",
       "Sleeves": "Three Quarter",
-      "Closure": "Slip On"  
-    } ,
-    {  
-      "id": "CTP00586D",  
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CTP00586D",
       "product_name": "CURVE Rusty Rose Cape Top",
-      "image_url":["https://img.faballey.com/images/Product/CTP00586D/d3.jpg","https://img.faballey.com/images/Product/CTP00586D/d4.jpg","https://img.faballey.com/images/Product/CTP00586D/d5.jpg","https://img.faballey.com/images/Product/CTP00586D/d7.jpg","https://img.faballey.com/images/Product/CTP00586D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00586D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00586D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00586D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00586D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00586D/d8.jpg"
+      ],
       "price": 1400,
-      "discount":50,
+      "discount": 50,
       "Color": "Pink",
       "Material": "Georgette",
       "Neck": "Round",
       "Sleeves": "Short",
-      "Closure": "Slip On"  
-    } ,
-    {  
-      "id": "CDR00437D",  
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CDR00437D",
       "product_name": "CURVE Dusty Pink A Line Dress with Tan Belt",
-      "image_url":["https://img.faballey.com/images/Product/CDR00437D/d3.jpg","https://img.faballey.com/images/Product/CDR00437D/d4.jpg","https://img.faballey.com/images/Product/CDR00437D/d5.jpg","https://img.faballey.com/images/Product/CDR00437D/d7.jpg","https://img.faballey.com/images/Product/CDR00437D/d8.jpg"],   
-      "price": 2100 ,
-      "discount":50,
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00437D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d8.jpg"
+      ],
+      "price": 2100,
+      "discount": 50,
       "Color": "Pink",
       "Material": "Poly Lycra",
       "Neck": "V-Neck",
       "Sleeves": "Short",
-      "Closure": "Slip On" 
-    } ,
-    {  
-      "id": "CDR00418D",  
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CDR00418D",
       "product_name": "CURVE Grey Floral Cape Cold Shoulder Mini Dress",
-      "image_url":["https://img.faballey.com/images/Product/CDR00418D/d3.jpg","https://img.faballey.com/images/Product/CDR00418D/d4.jpg","https://img.faballey.com/images/Product/CDR00418D/d5.jpg","https://img.faballey.com/images/Product/CDR00418D/d7.jpg","https://img.faballey.com/images/Product/CDR00418D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00418D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00418D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00418D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00418D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00418D/d8.jpg"
+      ],
       "price": 2100,
-      "discount":50,
+      "discount": 50,
       "Color": "Grey",
       "Material": "Poly Lycra",
       "Neck": "Boat Neck",
       "Sleeves": "Sleeveless",
-      "Closure": "Slip On"  
-    } ,
-    {  
-      "id": "CTP00617D",  
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CTP00617D",
       "product_name": "CURVE Green Polka Smocked Off Shoulder Top",
-      "image_url":["https://img.faballey.com/images/Product/CTP00617D/d3.jpg","https://img.faballey.com/images/Product/CTP00617D/d4.jpg","https://img.faballey.com/images/Product/CTP00617D/d5.jpg","https://img.faballey.com/images/Product/CTP00617D/d7.jpg","https://img.faballey.com/images/Product/CTP00617D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00617D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00617D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00617D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00617D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00617D/d8.jpg"
+      ],
       "price": 1800,
-      "discount":50,
+      "discount": 50,
       "Color": "Green",
       "Material": "Crepe",
       "Neck": "Off Shoulder",
       "Sleeves": "Short",
       "Closure": "Slip On",
       "Pattern": "Polka"
-    } ,
-    {  
-      "id": "CDR00480D",  
+    },
+    {
+      "id": "CDR00480D",
       "product_name": "CURVE Navy Pink Floral Belted Wrap Jumpsuit",
-      "image_url":["https://img.faballey.com/images/Product/CDR00480D/d3.jpg","https://img.faballey.com/images/Product/CDR00480D/d4.jpg","https://img.faballey.com/images/Product/CDR00480D/d5.jpg","https://img.faballey.com/images/Product/CDR00480D/d7.jpg","https://img.faballey.com/images/Product/CDR00480D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00480D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d8.jpg"
+      ],
       "price": 2600,
-      "discount":30,
+      "discount": 30,
       "Color": "Blue",
       "Material": "Crepe",
       "Neck": "V-Neck",
       "Sleeves": "Short",
       "Closure": "Slip On",
       "Pattern": "Floral",
-      "Pockets": "Two"  
-    } ,
-    {  
-      "id": "CTP00574D",  
+      "Pockets": "Two"
+    },
+    {
+      "id": "CTP00574D",
       "product_name": "CURVE Navy Overlap Tie Up Detail Top",
-      "image_url":["https://img.faballey.com/images/Product/CTP00574D/d3.jpg","https://img.faballey.com/images/Product/CTP00574D/d4.jpg","https://img.faballey.com/images/Product/CTP00574D/d5.jpg","https://img.faballey.com/images/Product/CTP00574D/d7.jpg","https://img.faballey.com/images/Product/CTP00574D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00574D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00574D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00574D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00574D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00574D/d8.jpg"
+      ],
       "price": 1400,
-      "discount":30,
+      "discount": 30,
       "Color": "Blue",
       "Material": "Crepe",
       "Neck": "Round",
       "Sleeves": "Short",
-      "Closure": "Button"   
-    } ,
-    {  
-      "id": "CTP00587D",  
+      "Closure": "Button"
+    },
+    {
+      "id": "CTP00587D",
       "product_name": "CURVE Navy Cape Top",
-      "image_url":["https://img.faballey.com/images/Product/CTP00587D/d3.jpg","https://img.faballey.com/images/Product/CTP00587D/d4.jpg","https://img.faballey.com/images/Product/CTP00587D/d5.jpg","https://img.faballey.com/images/Product/CTP00587D/d7.jpg","https://img.faballey.com/images/Product/CTP00587D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00587D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d8.jpg"
+      ],
       "price": 1400,
-      "discount":50,
+      "discount": 50,
       "Color": "Blue",
       "Material": "Georgette",
       "Neck": "Round",
       "Sleeves": "Short",
-      "Closure": "Slip On"   
-    } ,
-    {  
-      "id": "CDR00407D",  
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CDR00407D",
       "product_name": "CURVE Dark Green Jersey Cold Shoulder Maxi Dress",
-      "image_url":["https://img.faballey.com/images/Product/CDR00407D/d3.jpg","https://img.faballey.com/images/Product/CDR00407D/d4.jpg","https://img.faballey.com/images/Product/CDR00407D/d5.jpg","https://img.faballey.com/images/Product/CDR00407D/d7.jpg","https://img.faballey.com/images/Product/CDR00407D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00407D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00407D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00407D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00407D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00407D/d8.jpg"
+      ],
       "price": 2200,
-      "discount":50,
+      "discount": 50,
       "Color": "Green",
       "Material": "Jersey",
       "Neck": "Round",
       "Sleeves": "Short",
-      "Closure": "Slip On"   
-    } ,
-    {  
-      "id": "CDR00446D",  
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CDR00446D",
       "product_name": "CURVE Navy Floral Belted Kaftan Dress",
-      "image_url":["https://img.faballey.com/images/Product/CDR00446D/d3.jpg","https://img.faballey.com/images/Product/CDR00446D/d4.jpg","https://img.faballey.com/images/Product/CDR00446D/d5.jpg","https://img.faballey.com/images/Product/CDR00446D/d7.jpg","https://img.faballey.com/images/Product/CDR00446D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00446D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00446D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00446D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00446D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00446D/d8.jpg"
+      ],
       "price": 2400,
-      "discount":50,
+      "discount": 50,
       "Color": "Blue",
       "Material": "Viscose",
       "Neck": "V-Neck",
       "Sleeves": "Short",
       "Closure": "Slip On",
-      "Pattern": "Floral"   
-    } ,
-    {  
-      "id": "CDR00404D",  
+      "Pattern": "Floral"
+    },
+    {
+      "id": "CDR00404D",
       "product_name": "CURVE White Floral Cape Maxi Dress",
-      "image_url":["https://img.faballey.com/images/Product/CDR00404D/d3.jpg","https://img.faballey.com/images/Product/CDR00404D/d4.jpg","https://img.faballey.com/images/Product/CDR00404D/d5.jpg","https://img.faballey.com/images/Product/CDR00404D/d7.jpg","https://img.faballey.com/images/Product/CDR00404D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00404D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00404D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00404D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00404D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00404D/d8.jpg"
+      ],
       "price": 2950,
-      "discount":50,
+      "discount": 50,
       "Color": "White",
       "Material": "Georgette",
       "Neck": "Boat",
       "Sleeves": "Short",
       "Closure": "Zip",
-      "Pattern": "Floral"   
+      "Pattern": "Floral"
     },
-    {  
-      "id": "CTP00575D",  
+    {
+      "id": "CTP00575D",
       "product_name": "CURVE Dusty Pink Overlap Tie Up Detail Top",
-      "image_url":["https://img.faballey.com/images/Product/CTP00575D/d3.jpg","https://img.faballey.com/images/Product/CTP00575D/d4.jpg","https://img.faballey.com/images/Product/CTP00575D/d5.jpg","https://img.faballey.com/images/Product/CTP00575D/d7.jpg","https://img.faballey.com/images/Product/CTP00575D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00575D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00575D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00575D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00575D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00575D/d8.jpg"
+      ],
       "price": 1500,
-      "discount":50,
+      "discount": 50,
       "Color": "Pink",
       "Material": "Crepe",
       "Neck": "Round",
       "Sleeves": "Short",
       "Closure": "Button",
-      "Pattern": "Floral"   
-    } ,
-    
+      "Pattern": "Floral"
+    },
     {
-      "id": "CTP00535D",  
+      "id": "CTP00535D",
       "product_name": "CURVE Navy Neck Tie Detail Blouse",
-      "image_url":["https://img.faballey.com/images/Product/CTP00535D/d3.jpg","https://img.faballey.com/images/Product/CTP00535D/d4.jpg","https://img.faballey.com/images/Product/CTP00535D/d5.jpg","https://img.faballey.com/images/Product/CTP00535D/d7.jpg","https://img.faballey.com/images/Product/CTP00535D/d8.jpg"],   
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00535D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00535D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00535D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00535D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00535D/d8.jpg"
+      ],
       "price": 1400,
-      "discount":50,
+      "discount": 50,
       "Color": "Blue",
       "Material": "Georgette",
       "Neck": "Keyhole",
       "Sleeves": "Three Quarter",
       "Closure": " Slip On",
-      "Pattern": "Floral"   
-    }   
-    
-
+      "Pattern": "Floral"
+    }
+  ],
+  "cart": [
+    {
+      "id": "CDR00437D",
+      "product_name": "CURVE Dusty Pink A Line Dress with Tan Belt",
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00437D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00437D/d8.jpg"
+      ],
+      "price": 2100,
+      "discount": 50,
+      "Color": "Pink",
+      "Material": "Poly Lycra",
+      "Neck": "V-Neck",
+      "Sleeves": "Short",
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CTP00587D",
+      "product_name": "CURVE Navy Cape Top",
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00587D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00587D/d8.jpg"
+      ],
+      "price": 1400,
+      "discount": 50,
+      "Color": "Blue",
+      "Material": "Georgette",
+      "Neck": "Round",
+      "Sleeves": "Short",
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CTP00562D",
+      "product_name": "CURVE Dusty Pink Back Tie Bell Sleeve Blouse",
+      "image_url": [
+        "https://img.faballey.com/images/Product/CTP00562D/d3.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d4.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d5.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d7.jpg",
+        "https://img.faballey.com/images/Product/CTP00562D/d8.jpg"
+      ],
+      "price": 1400,
+      "discount": 50,
+      "Color": "Pink",
+      "Material": "Crepe",
+      "Neck": "V-Neck",
+      "Sleeves": "Full",
+      "Closure": "Slip On"
+    },
+    {
+      "id": "CDR00480D",
+      "product_name": "CURVE Navy Pink Floral Belted Wrap Jumpsuit",
+      "image_url": [
+        "https://img.faballey.com/images/Product/CDR00480D/d3.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d4.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d5.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d7.jpg",
+        "https://img.faballey.com/images/Product/CDR00480D/d8.jpg"
+      ],
+      "price": 2600,
+      "discount": 30,
+      "Color": "Blue",
+      "Material": "Crepe",
+      "Neck": "V-Neck",
+      "Sleeves": "Short",
+      "Closure": "Slip On",
+      "Pattern": "Floral",
+      "Pockets": "Two"
+    }
   ]
 }

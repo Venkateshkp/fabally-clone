@@ -69,7 +69,7 @@ function displayData(data,container)
         container.append(productCard);
         productCard.style.cursor="pointer";
         productCard.addEventListener('click',function()
-        {
+        {   localStorage.removeItem('checkoutId');
             if(localStorage.getItem('checkoutId')==null)
             {
                 let checkoutId=[];
@@ -260,3 +260,9 @@ sortOptions.addEventListener('change', async function()
         displayData(curveData,container); 
     }
 });
+url="http://localhost:3000/cart"; 
+data=await getData(url);
+let count=data.length;
+console.log(count);
+let cartCount=document.querySelector(".count");
+cartCount.textContent=count;
