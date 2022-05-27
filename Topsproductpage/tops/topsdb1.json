@@ -2660,53 +2660,20 @@
       "size": "xs"
     },
     {
-      "id": "TOP05030Z",
-      "product_name": "Green Embellished Halter Top",
+      "id": " TOP06006Z",
+      "product_name": "BASICS Brown Short Sleeve Knit Top",
       "image_url": [
-        "https://img.faballey.com/images/Product/TOP05030Z/d3.jpg",
-        "https://img.faballey.com/images/Product/TOP05030Z/d4.jpg",
-        "https://img.faballey.com/images/Product/TOP05030Z/d5.jpg",
-        "https://img.faballey.com/images/Product/TOP05030Z/d7.jpg",
-        "https://img.faballey.com/images/Product/TOP05030Z/d8.jpg"
+        "https://img.faballey.com/images/Product/TOP06006Z/d3.jpg",
+        "https://img.faballey.com/images/Product/TOP06006Z/d4.jpg",
+        "https://img.faballey.com/images/Product/TOP06006Z/d5.jpg",
+        "https://img.faballey.com/images/Product/TOP06006Z/d6.jpg",
+        "https://img.faballey.com/images/Product/TOP06006Z/d7.jpg",
+        "https://img.faballey.com/images/Product/TOP06006Z/d8.jpg"
       ],
-      "price": 750,
-      "striked_price": 1500,
-      "offer": "50%",
-      "category": "crop top",
-      "size": "xs"
-    },
-    {
-      "id": "TOP04947Z",
-      "product_name": "Red Striped Cuffed Detail Blouse",
-      "image_url": [
-        "https://img.faballey.com/images/Product/TOP04947Z/d3.jpg",
-        "https://img.faballey.com/images/Product/TOP04947Z/d4.jpg",
-        "https://img.faballey.com/images/Product/TOP04947Z/d5.jpg",
-        "https://img.faballey.com/images/Product/TOP04947Z/d7.jpg",
-        "https://img.faballey.com/images/Product/TOP04947Z/d8.jpg"
-      ],
-      "price": 700,
-      "striked_price": 1400,
-      "offer": "50%",
-      "category": "crop top",
-      "size": "xs"
-    },
-    {
-      "id": "TOP04519Z",
-      "product_name": "Grey Embellished Cowl Neck Top",
-      "image_url": [
-        "https://img.faballey.com/images/Product/TOP04519Z/d3.jpg",
-        "https://img.faballey.com/images/Product/TOP04519Z/d4.jpg",
-        "https://img.faballey.com/images/Product/TOP04519Z/d5.jpg",
-        "https://img.faballey.com/images/Product/TOP04519Z/d6.jpg",
-        "https://img.faballey.com/images/Product/TOP04519Z/d7.jpg",
-        "https://img.faballey.com/images/Product/TOP04519Z/d8.jpg",
-        "https://img.faballey.com/images/Product/TOP04519Z/d9.jpg"
-      ],
-      "price": 800,
-      "striked_price": 1600,
-      "offer": "50%",
-      "category": "blouses",
+      "price": 910,
+      "striked_price": 1300,
+      "offer": "30%",
+      "category": "T-shirts",
       "size": "m"
     }
   ]

@@ -189,16 +189,40 @@ async function addtocart(prodata){
         }
     });
     let data=await res1.json();
-   
+    
+    
    
   
    } catch (error) {
        console.log(error)
    }
 }
-function test(){
+async function test(){
+
+    let res2=await fetch("http://localhost:3000/cart");
+    let data2=await res2.json();
+    let length=0;
+    data2.forEach((ele)=>{
+        length++;
+    })
+    console.log(length);
     document.querySelector("#addtobag").style="background:green"
+    document.querySelector(".count").innerText=`${length}`
+    alert("Item added to cart successfully");
 }
+
+
+async function test2(){
+    let res2=await fetch("http://localhost:3000/cart");
+    let data2=await res2.json();
+    let length=0;
+    data2.forEach((ele)=>{
+        length++;
+    })
+    console.log(length);
+    document.querySelector(".count").innerText=`${length}`
+}
+test2();
 
 
 
