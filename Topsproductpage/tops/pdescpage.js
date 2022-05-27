@@ -83,3 +83,141 @@ document.querySelector("#shipping").addEventListener("click",()=>{
     
 })
 
+
+
+// product size
+
+
+document.querySelector("#xs").addEventListener("click",()=>{
+    document.querySelector("#xs").style="background: #323232;color: #fff;"
+    document.querySelector("#s").style="background: #fff;color: #323232;"
+    document.querySelector("#m").style="background: #fff;color: #323232;"
+    document.querySelector("#l").style="background: #fff;color: #323232;"
+    document.querySelector("#xl").style="background: #fff;color: #323232;"
+    if(localStorage.getItem("product_size")){
+        localStorage.removeItem("product_size");
+    }
+    localStorage.setItem("product_size",JSON.stringify("xs"));
+
+})
+
+document.querySelector("#s").addEventListener("click",()=>{
+    document.querySelector("#s").style="background: #323232;color: #fff;"
+    document.querySelector("#xs").style="background: #fff;color: #323232;"
+    document.querySelector("#m").style="background: #fff;color: #323232;"
+    document.querySelector("#l").style="background: #fff;color: #323232;"
+    document.querySelector("#xl").style="background: #fff;color: #323232;"
+    if(localStorage.getItem("product_size")){
+        localStorage.removeItem("product_size");
+    }
+    localStorage.setItem("product_size",JSON.stringify("s"));
+
+})
+
+document.querySelector("#m").addEventListener("click",()=>{
+    document.querySelector("#m").style="background: #323232;color: #fff;"
+    document.querySelector("#s").style="background: #fff;color: #323232;"
+    document.querySelector("#xs").style="background: #fff;color: #323232;"
+    document.querySelector("#l").style="background: #fff;color: #323232;"
+    document.querySelector("#xl").style="background: #fff;color: #323232;"
+    if(localStorage.getItem("product_size")){
+        localStorage.removeItem("product_size");
+    }
+    localStorage.setItem("product_size",JSON.stringify("m"));
+
+})
+
+document.querySelector("#l").addEventListener("click",()=>{
+    document.querySelector("#l").style="background: #323232;color: #fff;"
+    document.querySelector("#s").style="background: #fff;color: #323232;"
+    document.querySelector("#m").style="background: #fff;color: #323232;"
+    document.querySelector("#xs").style="background: #fff;color: #323232;"
+    document.querySelector("#xl").style="background: #fff;color: #323232;"
+    if(localStorage.getItem("product_size")){
+        localStorage.removeItem("product_size");
+    }
+    localStorage.setItem("product_size",JSON.stringify("l"));
+
+})
+
+document.querySelector("#xl").addEventListener("click",()=>{
+    document.querySelector("#xl").style="background: #323232;color: #fff;"
+    document.querySelector("#s").style="background: #fff;color: #323232;"
+    document.querySelector("#m").style="background: #fff;color: #323232;"
+    document.querySelector("#l").style="background: #fff;color: #323232;"
+    document.querySelector("#xs").style="background: #fff;color: #323232;"
+    if(localStorage.getItem("product_size")){
+        localStorage.removeItem("product_size");
+    }
+    localStorage.setItem("product_size",JSON.stringify("xl"));
+
+})
+
+
+document.querySelector("#addtobag").addEventListener("click",async (e)=>{
+     e.preventDefault();
+     setTimeout(test,2000);
+    let productid=JSON.parse(localStorage.getItem("product_id"));
+    let productsize=JSON.parse(localStorage.getItem("product_size"));
+    try {
+        let response=await fetch(`http://localhost:3000/topsdata/${productid}`);
+        let res=await response.json();
+        let prodata={
+            "id":res.id,
+            "product_name":res.product_name,
+            "image_url":res.image_url,
+            "price":res.price,
+            "striked_price":res.striked_price,
+            "offer":res.offer,
+            "category":res.category,
+            "size":productsize
+        }
+        addtocart(prodata);
+    } catch (error) {
+        console.log(error);
+    }
+})
+
+
+async function addtocart(prodata){
+   try {
+    let res1=await fetch("http://localhost:3000/cart",{
+        method:"POST",
+        body:JSON.stringify(prodata),
+        headers:{
+            "Content-Type":"application/json"
+        }
+    });
+    let data=await res1.json();
+   
+   
+  
+   } catch (error) {
+       console.log(error)
+   }
+}
+function test(){
+    document.querySelector("#addtobag").style="background:green"
+}
+
+
+
+// scroller
+
+
+      let  productContainers = [...document.querySelectorAll('.similarProductsSlider')];
+      let nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+      let preBtn = [...document.querySelectorAll('.pre-btn')];
+      
+      productContainers.forEach((item, i) => {
+          let containerDimensions = item.getBoundingClientRect();
+          let containerWidth = containerDimensions.width;
+      
+          nxtBtn[i].addEventListener('click', () => {
+              item.scrollLeft += containerWidth;
+          })
+      
+          preBtn[i].addEventListener('click', () => {
+              item.scrollLeft -= containerWidth;
+          })
+      })
