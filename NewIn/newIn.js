@@ -7,7 +7,7 @@ async function getdata ()
 {
     try
     {
-       let res = await fetch(`http://localhost:3000/data`)
+       let res = await fetch(`http://localhost:3001/data`)
        let item = await res.json()
        console.log(item[0].hoverimg)
     //    item = item.reverse()
