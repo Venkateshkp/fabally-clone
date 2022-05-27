@@ -399,7 +399,7 @@ Embellished Tops -->
                 </div>
             </li>
             <li><a href="#">LOUNGEWEAR</a></li>
-               <li><a href="#">CURVE</a></li>
+               <li><a href="./curves.html">CURVE</a></li>
             <li><a href="#">TRENDS</a>
                 <!-- TRENDS
                 Florals
@@ -428,7 +428,7 @@ Embellished Tops -->
                         TRENDS
                     </li>
                    </a>
-                    <a href="#">
+                    <a href="florals.html">
                         <li>Florals</li>
 
                     </a>

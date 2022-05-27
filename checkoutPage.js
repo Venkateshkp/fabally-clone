@@ -4,7 +4,8 @@ let navBarDiv=document.getElementById("navBar");
 navBarDiv.innerHTML=navBar();
 let footerDiv=document.getElementById("footer");
 footerDiv.innerHTML=footer();
-let url="http://localhost:3000/curvesData";
+let pageName=localStorage.getItem('pageName');
+let url=`http://localhost:3000/${pageName}`;
   let data= await getData(url);
   async function getData(url)
   {
@@ -94,8 +95,12 @@ let url="http://localhost:3000/curvesData";
           })
       })
       document.getElementById("addToCartBtn").addEventListener('click', async function()
-      {
-          let url="http://localhost:3000/curvesData";
+      {   
+          let addToCartBtn=document.getElementById("addToCartBtn");
+          addToCartBtn.textContent="GO TO CART";
+          addToCartBtn.style.backgroundColor="#03bb5c";
+          let pageName=localStorage.getItem('pageName');
+          let url=`http://localhost:3000/${pageName}`;
           let data= await getData(url);
           let productId=JSON.parse(localStorage.getItem('checkoutId'))[0];
           data.forEach(element => {
@@ -112,6 +117,7 @@ let url="http://localhost:3000/curvesData";
                             }
                         });
                         let data=await res.json();
+                        
                             
                     } catch (error) {
                         console.log(error);

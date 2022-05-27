@@ -1,11 +1,10 @@
-
 import navBar from "./components/navBar.js";
 import footer from "./components/footer.js";
 let navBarDiv=document.getElementById("navBar");
 navBarDiv.innerHTML=navBar();
 let footerDiv=document.getElementById("footer");
 footerDiv.innerHTML=footer();
-let url="http://localhost:3000/curvesData";
+let url="http://localhost:3000/floralsData";
 let data= await getData(url);
 let container=document.getElementById("productContainer");
 displayData(data,container); 
@@ -74,7 +73,7 @@ function displayData(data,container)
             {
                 let checkoutId=[];
                 checkoutId.push(element.id);
-                localStorage.setItem('pageName',"curvesData");
+                localStorage.setItem('pageName',"floralsData");
                 localStorage.setItem('checkoutId',JSON.stringify(checkoutId));
                 window.location.href="./checkoutPage.html";
             }
@@ -119,7 +118,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             let curveData=data.filter((element)=>{
                 return element.Size==filterOptionsValue;
@@ -135,7 +134,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             console.log(data)
             let curveData=data.filter((element)=>{
@@ -153,7 +152,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             let curveData=data.filter((element)=>{
                 return element.Occasion==filterOptionsValue;
@@ -169,7 +168,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             let curveData=data.filter((element)=>{
                 return element.Material==filterOptionsValue;
@@ -185,7 +184,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             let curveData=data.filter((element)=>{
                 return element.Pattern==filterOptionsValue;
@@ -201,7 +200,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             let curveData=data.filter((element)=>{
                 return element.Trend==filterOptionsValue;
@@ -217,7 +216,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             let curveData=data.filter((element)=>{
                 return element.discount>=filterOptionsValue;
@@ -233,7 +232,7 @@ for(let i=0;i<filterOptions.length;i++)
         {   
             let filterOptionsValue=filterOptions[i].value;
             console.log(filterOptionsValue);
-            let url="http://localhost:3000/curvesData";
+            let url="http://localhost:3000/floralsData";
             let data=await getData(url);
             let curveData=data.filter((element)=>{
                 return element.price>=filterOptionsValue;
@@ -251,7 +250,7 @@ sortOptions.addEventListener('change', async function()
     let sortValue=sortOptions.value;
     if(sortValue=="hightolow")
     {
-        let url="http://localhost:3000/curvesData";
+        let url="http://localhost:3000/floralsData";
         let data=await getData(url);
         let curveData=data.sort((a,b)=>{
             return Math.ceil(b.price*(1-b.discount/100))-Math.ceil(a.price*(1-a.discount/100));
@@ -261,7 +260,7 @@ sortOptions.addEventListener('change', async function()
     }
     else if(sortValue=="lowtohigh")
     {
-        let url="http://localhost:3000/curvesData";
+        let url="http://localhost:3000/floralsData";
         let data=await getData(url);
         let curveData=data.sort((a,b)=>{
             return Math.ceil(a.price*(1-a.discount/100))-Math.ceil(b.price*(1-b.discount/100));
