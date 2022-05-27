@@ -1143,7 +1143,18 @@ border-bottom: 1px solid #dcdcdc;
 padding:5px
 
 }
-
+.flex10 > select{
+  width: 150px;
+  margin-right: 10px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.flex11 > select{
+  width: 150px;
+  margin-left: 10px;
+  height: 40px;
+  margin-bottom: 10px;
+}
 
 
 
